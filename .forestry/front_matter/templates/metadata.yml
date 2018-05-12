@@ -21,3 +21,8 @@ fields:
     name: thumbnail
     label: Thumbnail
     description: 504 x 568
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: MM/DD/YYYY - mm dd yyyy - m d yy
