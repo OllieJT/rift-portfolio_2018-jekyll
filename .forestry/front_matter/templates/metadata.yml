@@ -3,14 +3,17 @@ hide_body: false
 is_partial: true
 fields:
 - type: textarea
-- type: text
-  name: title
-  label: Title
 - type: datetime
   name: date
   label: Date
   config:
     date_format: MM/DD/YYYY - mm dd yyyy - m d yy
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: description
+  label: Description
 - type: field_group
   name: image
   label: Images
@@ -26,6 +29,3 @@ fields:
     name: thumbnail
     label: Thumbnail
     description: 504 x 568
-- type: textarea
-  name: description
-  label: Description
