@@ -26,11 +26,11 @@ fields:
 - type: text
   label: Project Type
   name: project_type
-- type: blocks
-- type: field_group_list
-  label: Team
-  name: team
+- type: field_group
+  label: Participants
+  name: participants
   fields:
-  - type: text
-    name: name
-    label: Name
+  - type: boolean
+    name: ollie
+    label: Ollie
+    default: false
