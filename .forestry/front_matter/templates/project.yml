@@ -9,22 +9,12 @@ fields:
   type: text
   hidden: false
   default: project
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
+- type: include
+  template: metadata
+  label: Metadata
+  name: metadata
 - name: categories
   label: Categories
   type: tag_list
   hidden: false
   default: ''
-- type: include
-  template: metadata
-  label: Metadata
-  name: metadata
