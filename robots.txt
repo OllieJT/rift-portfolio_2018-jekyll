@@ -1,6 +1,6 @@
 User-Agent: *
-Disallow: https://olliejt.com/admin
-Disallow: https://olliejt.com/css
-Disallow: https://olliejt.com/404.html
+Disallow: http://digitalrift.co//admin
+Disallow: http://digitalrift.co//css
+Disallow: http://digitalrift.co//404.html
 
 Sitemap: /sitemap.xml
