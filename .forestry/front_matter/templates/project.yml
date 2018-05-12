@@ -4,13 +4,15 @@ pages:
 hide_body: false
 is_partial: false
 fields:
-- name: layout
-  label: Layout
-  type: text
-  hidden: true
-  default: project
+- type: select
+  name: layout
   config:
-    required: true
+    source:
+      type: simple
+    options:
+    - project
+  label: Layout
+  default: project
 - type: include
   template: metadata
   label: Metadata
