@@ -1,4 +1,23 @@
 ---
 hide_body: false
 is_partial: true
-fields: []
+fields:
+- type: textarea
+- type: text
+  name: title
+  label: Title
+- type: field_group
+  name: image
+  label: Images
+  fields:
+  - type: file
+    name: meta
+    label: Social
+  - type: file
+    name: header
+    label: Header
+    description: 1920 x 1080
+  - type: file
+    name: thumbnail
+    label: Thumbnail
+    description: 504 x 568
