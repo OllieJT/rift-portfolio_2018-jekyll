@@ -7,8 +7,10 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: project
+  config:
+    required: true
 - type: include
   template: metadata
   label: Metadata
