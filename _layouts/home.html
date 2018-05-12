@@ -41,31 +41,8 @@ headerImage: "img/thumbnail.jpg"
 	
 	<ul class="card-list container">
 	
-	{% for post in site.posts limit:6 %}
-		<li>
-			<a class="card card-project" href=".">
-			
-				<div class="card-thumbnail">
-					<div class="card-project-open">
-						<h6>View Project</h6>
-					</div>
-					<img src="./img/projects/battalion/thumbnail.jpg" width="252" height="284" alt="Battalion Project Thumbnail" />
-				</div>
-				
-				<p>Battalion 1994</p>
-				<h6>Game User Interface</h6>
-				
-				<ul class="project-participant-list">
-					<li class="project-participant">
-						<img src="./img/team/ollie-taylor.jpg" width="36" height="36" alt="Ollie Taylor" />
-					</li>
-					<li class="project-participant">
-						<img src="./img/team/tom-wade.jpg" width="36" height="36" alt="Tom Wade" />
-					</li>
-				</ul>
-				
-			</a>
-		</li>
+	{% for project in site.posts limit:6 %}
+		{% include card-project.html %}
 	{% endfor %}
 		
 	</ul>

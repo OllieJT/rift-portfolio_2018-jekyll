@@ -20,8 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://olliejt.com"
 permalink: /:categories/:slug
-paginate: 9
-paginate_path: "/works/page:num/"
+paginate: 12
+paginate_path: "/projects/page:num/"
 
 
 #Contact Details
