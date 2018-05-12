@@ -7,7 +7,7 @@ fields:
   name: date
   label: Date
   config:
-    date_format: MM/DD/YYYY -- m \ mmm dd yy -- m d yy //
+    date_format: MM/DD/YYYY -- m M dd D YYYY -- m d yy //
 - type: text
   name: title
   label: Title
