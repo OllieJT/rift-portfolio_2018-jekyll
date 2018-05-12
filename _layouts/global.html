@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+	<title>
+	{% if layout == "home" %}{{ site.title }} &middot; {{ site.tagline }}
+	{% else if title %}{{ title }} &middot; {{ site.title }}
+	{% else %}{{ site.title }} &middot; {{ site.tagline }}
+	{% endif %}
+	</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" href="{{ url }}{{ directory }}src/favicon-32.png"> <!-- 32px -->
+	<link rel="apple-touch-icon" href="{{ url }}{{ directory }}src/favicon-180.png" sizes="180x180"><!-- 180px -->
+	<link rel="mask-icon" href="{{ url }}{{ directory }}src/favicon-256.png" color="#{{ site.colour }}"> <!-- 256px -->
+	<meta name="msapplication-TileColor" content="#{{ site.colour }}">
+	<meta name="theme-color" content="#{{ site.colour }}">
+
+	<!-- seo-meta-global -->
+	<meta name="author" content="{{ contact.author }}">
+	<link rel='me' type='text/html' href='http://twitter.com/{{ contact.twitter }}'>
+	<link rel="canonical" href="{{ url }}{{ directory }}">
+
+	<!-- seo-meta-global - opengraph -->
+	<meta property="og:type" content="{{ content_type }}">
+	<meta property="og:site_name" content="{{ site.title }}">
+	<meta property="og:locale" content="en"> <!-- en_US -->
+	<meta property="article:author" content="{{ contact.author }}">
+
+	<!-- seo-meta-global - twitter -->
+	<meta name="twitter:site" content="{{ contact.twitter }}" />
+	<meta name="twitter:card" content="summary" />
+
+	<!-- seo-meta-this-page -->
+	<meta property="og:title" content="{% if title %}{{ title }} - {% endif %}{{ site.title }}">
+	<meta name="twitter:title" content="{% if title %}{{ title }} - {% endif %}{{ site.title }}" />
+
+	<meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+
+	<meta property="og:url" content="{{ url }}{{ directory }}{{ slug }}">
+	<meta name="twitter:url" content="{{ url }}{{ directory }}{{ slug }}"/>
+
+	<meta property="og:image" content="{% if thumbnail %}{{ url }}{{ directory }}{{ thumbnail }}{% else %}{{ url }}{{ directory }}src/thumbnail.jpg{% endif %}">
+	<meta name="twitter:image" content="{% if thumbnail %}{{ url }}{{ directory }}{{ thumbnail }}{% else %}{{ url }}{{ directory }}src/thumbnail.jpg{% endif %}" />
+
+	<meta name="keywords" content="{% for value in tags %}{{ value }}, {% endfor %}">
+
+	<!-- global imports -->
+	<meta name="robots" content="robots.txt">
+	<link rel="author" href="humans.txt">
+	<link rel="manifest" href="manifest.json">
+	
+	<link rel="stylesheet" type="text/css" href="{{ url }}{{ directory }}style.css">
+</head>
+
+<body>
+
+	
+	{{ content }}
+
+	<footer class="dark-mode">
+		<div class="colour-bar"></div>
+		<div class="container">
+			<div id="footer-text">
+				<h4>Letâ€™s have a chat about your project!</h4>
+				<p>With years of experience delivering high quality products in eSports, we can't wait to build something awesome with you and kick your project into overdrive! We're a friendly bunch, so drop us an email or connect on our social channels.</p>
+				<h6 id="legal">&copy;2018 Digital Rift. All Rights Reserved.</h6>
+			</div>
+			<div id="footer-links">
+				<a class="footer-button" href="https://twitter.com/riftco" target="_blank">
+					<img src="img/social-twitter.svg" alt="Twitter Logo" width="18" height="14" />
+					<h6>Tweet @RiftCo</h6>
+				</a>
+				<a class="footer-button" href="https://discord.gg/EbpbYae" target="_blank" rel="noopener">
+					<img src="img/social-discord.svg" alt="Discord Logo" width="18" height="20" />
+					<h6>Chat on Discord</h6>
+				</a>
+				<a class="footer-button" href="mailto:hello@digitalrift.co" target="_blank" rel="noopener">
+					<h6>...or shoot us an email</h6>
+				</a>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- Scripts -->
+	<!--<script src="." type="text/javascript" async ></script>-->
+	<!-- <link rel="stylesheet" type="text/css" href="{{ url }}{{ directory }}/style.css"> -->
+
+</body>
+</html>

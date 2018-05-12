@@ -1,0 +1,33 @@
+---
+layout: global
+title: Case Studies
+subTitle: We design and build online brands for gamers.
+description: We design and build online brands for gamers.
+date: May 2018
+thumbnail: "img/thumbnail.jpg"
+headerImage: "img/thumbnail.jpg"
+---
+
+<header class="dark-mode">
+	<div class="colour-bar"></div>
+	{% include _nav.html %}
+	<div class="hero-title">
+		<h1>Case Studies</h1>
+	</div>
+	<div class="container-edge">
+		<svg xmlns="http://www.w3.org/2000/svg" width="1658" height="36" viewBox="0 0 1658 36">
+			<path 
+				fill="#FFF" 
+				ill-rule="evenodd"
+				d="M1658,468 L0,468 C276.333333,444 552.666667,432 829,432 C1105.33333,432 1381.66667,444 1658,468 Z"
+				transform="translate(0 -432)"
+			/>
+		</svg>
+	</div>
+	<div class="background-image" style="background-image: url('./{{headerImage}}')"></div>
+</header>
+
+
+<section id="projects">
+	{{ content }}
+</section>
