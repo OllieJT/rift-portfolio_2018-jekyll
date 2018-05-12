@@ -1,8 +1,16 @@
 ---
 layout: project
-title:  "Welcome to Jekyll!"
-date:   2018-05-12 01:30:45 +0200
-categories: jekyll update
+title: Welcome to Jekyll!
+date: 2018-05-11 23:30:45 +0000
+categories:
+- jekyll update
+description: includes the necessary front matter. Take a look at the source for this
+  post to get an idea about how it works.
+image:
+  meta: "/uploads/2018/05/12/thumbnail.jpg"
+  header: "/uploads/2018/05/12/header.jpg"
+  thumbnail: "/uploads/2018/05/12/thumbnail-1.jpg"
+undefined: ''
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
