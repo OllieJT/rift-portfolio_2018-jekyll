@@ -34,3 +34,6 @@ fields:
     name: ollie
     label: Ollie
     default: false
+  - type: boolean
+    name: tom
+    label: Tom
