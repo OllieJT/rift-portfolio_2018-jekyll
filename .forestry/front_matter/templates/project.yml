@@ -20,3 +20,9 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: text
+  name: client_name
+  label: Client Name
+- type: text
+  label: Project Type
+  name: project_type
