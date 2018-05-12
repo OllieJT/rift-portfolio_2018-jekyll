@@ -24,3 +24,7 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+- type: include
+  template: metadata
+  label: Metadata
+  name: metadata
