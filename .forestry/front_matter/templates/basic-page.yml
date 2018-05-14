@@ -1,5 +1,7 @@
 ---
 pages:
+- about.md
+- index.html
 - projects.html
 hide_body: false
 is_partial: false
