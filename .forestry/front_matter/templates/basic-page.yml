@@ -1,4 +1,8 @@
 ---
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: include
+  name: metadata
+  label: Metadata
+  template: metadata
