@@ -2,6 +2,21 @@
 hide_body: false
 is_partial: false
 fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - projects
+    - home
+    - global
+  label: Layout
+  hidden: true
+- type: text
+  name: permalink
+  label: Permalink
 - type: include
   name: metadata
   label: Metadata
