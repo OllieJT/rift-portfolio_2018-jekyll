@@ -5,7 +5,7 @@ permalink: "/about/"
 date: ''
 description: ''
 image:
-  meta: ''
+  meta: "/uploads/2018/05/thumbnail.jpg"
   header: ''
   thumbnail: ''
 ---
