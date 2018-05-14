@@ -1,4 +1,6 @@
 ---
+pages:
+- projects.html
 hide_body: false
 is_partial: false
 fields:
@@ -13,7 +15,8 @@ fields:
     - home
     - global
   label: Layout
-  hidden: true
+  hidden: false
+  default: projects
 - type: text
   name: permalink
   label: Permalink
