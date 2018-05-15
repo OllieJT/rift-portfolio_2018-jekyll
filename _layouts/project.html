@@ -6,10 +6,25 @@ layout: global
 	<div class="colour-bar"></div>
 	{% include _nav.html %}
 	<div class="project-title">
-		<h1>{{ page.description }}</h1>
+		<h1>{{ page.title }}</h1>
 		<ul>
 			<li><h6>Client: <strong>{{ page.client_name }}</strong></h6></li>
 			<li><h6>Project: <strong>{{ page.project_type }}</strong></h6></li>
+		</ul>
+		<ul class="project-participant-list">
+			
+			{% if page.participants.ollie == true %}
+			<li class="project-participant">
+				<img src="/img/team/ollie-taylor.jpg" width="36" height="36" alt="Ollie Taylor" />
+			</li>
+			{% endif %}
+			
+			{% if page.participants.tom == true %}
+			<li class="project-participant">
+				<img src="/img/team/tom-wade.jpg" width="36" height="36" alt="Tom Wade" />
+			</li>
+			{% endif %}
+			
 		</ul>
 	</div>
 	<div class="container-edge">
@@ -28,5 +43,32 @@ layout: global
 <article id="project-content">
 	
 {{ content }}
+
+
+<ul class="project-participant-list">
+			
+	{% if page.participants.ollie == true %}
+	<li class="project-participant">
+		
+		<a href="." target="_blank">
+			<img src="/img/team/ollie-taylor.jpg" width="60" height="60" alt="Ollie Taylor" />
+			<p>Ollie Taylor</p>
+		</a>
+		
+	</li>
+	{% endif %}
+	
+	{% if page.participants.tom == true %}
+	<li class="project-participant">
+		
+		<a href="." target="_blank">
+			<img src="/img/team/tom-wade.jpg" width="60" height="60" alt="Tom Wade" />
+			<p>Tom Wade</p>
+		</a>
+	
+	</li>
+	{% endif %}
+	
+</ul>
 	
 </article>
