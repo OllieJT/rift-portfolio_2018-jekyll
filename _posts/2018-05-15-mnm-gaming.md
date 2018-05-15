@@ -1,10 +1,10 @@
 ---
-title: Website Stuff
+title: We built an online hub for the leading Brittish esports club
 layout: project
 date: 2018-03-15 12:51:43 +0000
 client_name: MnM Gaming
 project_type: Website Design
-description: And moar
+description: With a loving fan base and a wealth of media being shared MnM contacted us looking to enrich their users experience.
 image:
   meta: ''
   header: ''
@@ -15,7 +15,7 @@ participants:
   ollie: true
   tom: true
 ---
-we were tasked with revamping their website to improve user experience and to better accommodate and promote rich media that they internally produce and publish
+
 
 Molotovs and Marshmallow Gaming, aside from having a fantastic name, have always strived to be more than just a fly-by-night esports team, to be sustainable and to be the standard for which UK esports teams are measured.
 

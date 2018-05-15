@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #Navigation
 baseurl: ""
 url: "http://digitalrift.co/"
-permalink: /:categories/:slug
+permalink: /:year/:month/:slug
 paginate: 12
 paginate_path: "/projects/page:num/"
 
