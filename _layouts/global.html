@@ -8,9 +8,9 @@
 	<title>{% if title %}{{ title }} &middot;  {% endif %}{{ site.title }}</title>
 
 	<!-- favicon -->
-	<link rel="shortcut icon" href="/img/favicon-32.png"> <!-- 32px -->
-	<link rel="apple-touch-icon" href="/img/favicon-180.png" sizes="180x180"><!-- 180px -->
-	<link rel="mask-icon" href="/img/favicon-256.png" color="#{{ site.colour }}"> <!-- 256px -->
+	<link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}img/favicon-32.png"> <!-- 32px -->
+	<link rel="apple-touch-icon" href="{{ site.url }}{{ site.baseurl }}img/favicon-180.png" sizes="180x180"><!-- 180px -->
+	<link rel="mask-icon" href="{{ site.url }}{{ site.baseurl }}img/favicon-256.png" color="#{{ site.colour }}"> <!-- 256px -->
 	<meta name="msapplication-TileColor" content="#{{ site.colour }}">
 	<meta name="theme-color" content="#{{ site.colour }}">
 
@@ -50,7 +50,7 @@
 	<link rel="author" href="humans.txt">
 	<link rel="manifest" href="manifest.json">
 	
-	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}style.css">
 </head>
 
 <body>

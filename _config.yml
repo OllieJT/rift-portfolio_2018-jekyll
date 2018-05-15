@@ -20,8 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   
   
 #Navigation
-baseurl: ""
-url: "http://digitalrift.co/"
+baseurl: "rift-portfolio_2018-jekyll/"
+url: "https://riftco.github.io/"
 permalink: /:year/:month/:slug
 paginate: 12
 paginate_path: "/projects/page:num/"
