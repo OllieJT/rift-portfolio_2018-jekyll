@@ -37,7 +37,7 @@ layout: global
 			/>
 		</svg>
 	</div>
-	<div class="background-image" style="background-image: url('{{ page.image.header }}')"></div>
+	<div class="background-image" style="background-image: url('{{ page.image.header | prepend: site.baseurl | replace: '//', '/' }} }}')"></div>
 </header>
 
 <article id="project-content">

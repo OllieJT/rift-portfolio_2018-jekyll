@@ -1,11 +1,11 @@
 <li>
-	<a class="card card-project" href="{{ project.url }}">
+	<a class="card card-project" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
 	
 		<div class="card-thumbnail">
 			<div class="card-project-open">
 				<h6>View Project</h6>
 			</div>
-			<img src="{{ project.image.thumbnail }}" width="252" height="284" alt="{{ project.client_name }} Project Thumbnail" />
+			<img src="{{ project.image.thumbnail | prepend: site.baseurl | replace: '//', '/' }} }}" width="252" height="284" alt="{{ project.client_name }} Project Thumbnail" />
 		</div>
 		
 		<p>{{ project.client_name }}</p>
