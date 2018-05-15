@@ -4,7 +4,7 @@ layout: project
 date: 2018-03-15 12:51:43 +0000
 client_name: MnM Gaming
 project_type: Website Design
-description: And moar
+description: "?????"
 image:
   meta: ''
   header: ''
@@ -12,7 +12,7 @@ image:
 categories:
 - Esports
 participants:
-  ollie: true
+  ollie: false
   tom: true
 ---
 We were tasked with revamping their website to improve user experience and to better accommodate and promote rich media that they internally produce and publish
