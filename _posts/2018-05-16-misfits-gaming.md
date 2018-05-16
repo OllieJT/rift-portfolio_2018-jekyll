@@ -8,9 +8,9 @@ participants:
   tom: true
 description: ''
 image:
-  meta: "/uploads/2018/05/thumbnail-misfits.jpg"
+  meta: ''
   header: ''
-  thumbnail: ''
+  thumbnail: "/uploads/2018/05/thumbnail-misfits.jpg"
 categories: []
 project_type: ''
 ---

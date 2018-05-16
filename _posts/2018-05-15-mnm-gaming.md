@@ -7,9 +7,9 @@ project_type: Website Design
 description: With a loving fan base and a wealth of media being shared MnM contacted
   us looking to enrich their users experience.
 image:
-  meta: "/uploads/2018/05/thumbnail-mnm.jpg"
+  meta: ''
   header: ''
-  thumbnail: ''
+  thumbnail: "/uploads/2018/05/thumbnail-mnm.jpg"
 categories: []
 participants:
   ollie: false
