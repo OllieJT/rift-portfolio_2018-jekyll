@@ -8,7 +8,7 @@ participants:
   tom: true
 description: ''
 image:
-  meta: ''
+  meta: "/uploads/2018/05/thumbnail-misfits.jpg"
   header: ''
   thumbnail: ''
 categories: []
