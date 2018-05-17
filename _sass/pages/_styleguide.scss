@@ -1,0 +1,171 @@
+@import '../_framework/variables';
+
+// Mixins
+@import '../_framework/mixins/animation';
+
+
+
+// Home
+.section-title{
+	position: relative;
+	overflow: hidden;
+	h1,h2,h3,h4,h5,h6,p{
+		width: 100%;
+		max-width: 554px;
+		margin: 0 auto;
+		z-index: 10;
+		position: relative;
+		padding: 0 $space;
+	}
+	grid-template-rows: auto auto;
+	grid-template-areas: 
+		". . title title title title title title title title . ."
+		". . subtitle subtitle subtitle subtitle subtitle subtitle subtitle subtitle . ."
+	;
+	text-align: center;
+	margin-bottom: $space-big;
+	h4{
+		grid-area: title;
+	}
+	p{
+		grid-area: subtitle
+	}
+}
+section#projects{
+	position: relative;
+	z-index: 10;
+}
+section#services{
+	position: relative;
+	z-index: 1;
+	margin-top: -4.2rem;
+	background-image: linear-gradient(-180deg, rgba(80,50,150,0.12) 0%, rgba(130,30,150,0.00) 100%);
+	.section-title{
+		position: relative;
+		z-index: 1;
+		background: #503D99;
+		padding-top: 13.2rem;
+		padding-bottom: 13.2rem;
+		margin-bottom: -4.2rem;
+		.container-edge{
+			top: 0
+		}
+	}
+}
+.service-list{
+	grid-template-rows: auto auto;
+	position: relative;
+	z-index: 10;
+	li{
+		grid-column: span 6;
+		padding: $space-big;
+		border-radius: .6rem;
+		&.service-special{
+			background: $background;
+			border-bottom: 3px solid transparentize($background-invert, .82);
+			.service-title{
+				grid-template-columns: auto 1fr;
+				grid-template-rows: 1fr auto auto 1fr;
+				grid-template-areas:
+					"image ."
+					"image name"
+					"image skill"
+					"image ."
+				;
+			}
+		}
+	}
+	.service-title{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+			"name"
+			"skill"
+		;
+		grid-column-gap: $space;
+		margin-bottom: $space;
+		img{
+			grid-area: image;
+			border-radius: 100%;
+		}
+		h1,h2,h3,h4,h5,p{
+			grid-area: name;
+			
+		}
+		h6{
+			grid-area: skill;
+			color: $brand;
+		}
+	}
+}
+	
+
+
+// Project Page
+article{
+	h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote{
+		margin-bottom: $space !important;
+		&:last-child{margin-bottom: 0 !important}
+	}
+	blockquote p{
+		margin-bottom: 0 !important;
+		padding: 0 !important;
+	}
+}
+#project-content{
+	h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote,figcaption{
+		width: 100%;
+		max-width: $body-max;
+		margin: 0 auto;
+	}
+	h1,h2,h3,h4,h5,h6,p,ul,ol{
+		padding: 0 1.8rem;
+	}
+	iframe{
+		border-radius: 1.2rem;
+		overflow: hidden
+	}
+}
+
+
+.pagination{
+	//display: flex;
+	width: 100%;
+	max-width: $body-max;
+	padding: $space;
+	margin: 0 auto;
+	margin-top: $space-big;
+	a{
+		flex-grow: 0;
+		padding: $space-small 1.8rem;
+		border-radius: .6rem;
+		p,h6{
+			color: white
+		}
+		&:first-child{
+			float: left;
+			background: transparentize($background-invert, .4);
+		}
+		&:last-child{
+			float: right;
+			background: $background-invert;
+		}
+	}
+}
+
+
+
+//@media only screen and (max-width: $desktop) {}
+
+@media only screen and (max-width: $tablet) {
+	.service-list{
+		grid-template-rows: auto auto auto auto;
+		li{
+			grid-column: span 12;
+			padding: 1.8rem;
+		}
+	}
+}
+
+//@media only screen and (max-width: $mobile) {}

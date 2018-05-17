@@ -42,6 +42,9 @@ html_press:
   drop_empty_values: false
   strip_crlf: false
   js_minifier_options: false
+sass:
+  style: compact # nested expanded compact compressed
+  sass_dir: _sass
 plugins:
   #- jekyll-feed                 # RSS Feed
   - jekyll-paginate             # Blog Pagination
