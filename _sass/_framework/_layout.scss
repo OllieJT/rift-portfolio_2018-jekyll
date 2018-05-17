@@ -52,67 +52,40 @@
 }
 	
 .background-parallax{
-	perspective: 1px;
-	overflow-x: hidden;
-	overflow-y: auto;
+	overflow: hidden;
 	opacity: .3;
 	.parallax-layer{
-		background-size: contain;
+		//background-size: cover;
 		background-position: center bottom;
 		background-repeat: no-repeat;
 	}
 	.layer_1{
 		transform: translateZ(-9px) scale(10);
-		animation: float_1 6s ease infinite;
+		animation: float-alt 12s ease infinite;
 		animation-direction: reverse;
 	}
 	.layer_2{
 		transform: translateZ(-5px) scale(6);
-		animation: float_2 9s ease infinite;
-		animation-direction: reverse;
+		animation: float-alt 15s ease infinite;
 	}
 	.layer_3{
 		transform: translateZ(-3px) scale(4);
-		animation: float_1 15s ease infinite;
+		animation: float 24s ease infinite;
+		animation-direction: reverse;
 	}
 	.layer_4{
 		transform: translateZ(-1px) scale(2);
-		animation: float_2 24s ease infinite;
+		animation: float 30s ease infinite;
 	}
 }
 	
-@keyframes float_1 {
-	0%{	transform: translateY(0) 			translateX(0)}
-	20%{	transform: translateY(-.6rem)		translateX(-.3rem)}
-	40%{	transform: translateY(0)			translateX(.3)}
-	60%{	transform: translateY(.3rem)		translateX(.6)}
-	80%{	transform: translateY(-.6)			translateX(-.3rem)}
-	100%{	transform: translateY(0) 			translateX(0)}
+@keyframes float {
+	0%{	transform: translateY(100%) 			translateX(0)}
+	100%{	transform: translateY(-100%) 			translateX(0)}
 }
-	
-@keyframes float_2 {
-	0%{	transform: translateY(0) 			translateX(0)}
-	25%{	transform: translateY(.3rem)		translateX(.3rem)}
-	50%{	transform: translateY(.9rem)		translateX(-.3rem)}
-	75%{	transform: translateY(.3rem)		translateX(-.9rem)}
-	100%{	transform: translateY(0) 			translateX(0)}
-}
-
-@keyframes float_3 {
-	0%{	transform: translateY(0) 			translateX(0)}
-	20%{	transform: translateY(-.3rem)		translateX(-.6rem)}
-	40%{	transform: translateY(.3)			translateX(.3)}
-	60%{	transform: translateY(.6rem)		translateX(.9)}
-	80%{	transform: translateY(-.3)			translateX(.3)}
-	100%{	transform: translateY(0) 			translateX(0)}
-}
-	
-@keyframes float_4 {
-	0%{	transform: translateY(0) 			translateX(0)}
-	25%{	transform: translateY(.6rem)		translateX(.3rem)}
-	50%{	transform: translateY(.3rem)		translateX(0)}
-	75%{	transform: translateY(.6rem)		translateX(-.6rem)}
-	100%{	transform: translateY(0) 			translateX(0)}
+@keyframes float-alt {
+	0%{	transform: translateY(100%) 			translateX(-1px)}
+	100%{	transform: translateY(-100%) 			translateX(-1px)}
 }
 
 

@@ -60,12 +60,13 @@ h6,p,li,figcaption{
 	}
 }
 span.highlight,a{color: $text-colour-highlight}
+
 .dark-mode{
 	h1,h2,h3,h4,h5,strong,bold,b{color: $text-colour-invert-strong}
 	h6,p,li,figcaption{
 		color: $text-colour-invert;
 		a{
-			color: $text-colour-invert-highlight;
+			color: $text-colour-invert;
 			&:hover{color: $text-colour-invert-alt}
 		}
 	}
