@@ -1,5 +1,5 @@
 ---
-title: We built an online hub for the leading Brittish esports club
+title: We built an online hub for the leading British esports club
 layout: project
 date: 2018-03-15 12:51:43 +0000
 client_name: MnM Gaming
