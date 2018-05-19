@@ -1,7 +1,4 @@
 ---
-pages:
-- _posts/2018-05-16-misfits-gaming.md
-- _posts/2018-05-15-mnm-gaming.md
 hide_body: false
 is_partial: false
 fields:
@@ -40,3 +37,6 @@ fields:
   - type: boolean
     name: tom
     label: Tom
+pages:
+- _posts/2018-05-16-misfits-gaming.md
+- _posts/2018-05-15-mnm-gaming.md

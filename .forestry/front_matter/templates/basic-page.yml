@@ -1,9 +1,4 @@
 ---
-pages:
-- index.html
-- 404.html
-- about.md
-- projects.html
 hide_body: false
 is_partial: false
 fields:
@@ -27,3 +22,8 @@ fields:
   name: metadata
   label: Metadata
   template: metadata
+pages:
+- index.html
+- 404.html
+- about.md
+- projects.html
