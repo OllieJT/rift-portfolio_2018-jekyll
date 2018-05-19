@@ -201,11 +201,11 @@ article ol ul li:before { content: none; }
 .background-image { height: 100%; background-size: cover; background-attachment: fixed; opacity: .24; }
 
 .background-parallax { overflow: visible; opacity: .3; }
-.background-parallax .parallax-layer { overflow: visible; background-size: cover; background-position: center; background-repeat: no-repeat; }
-.background-parallax .layer_1 { transform: translateZ(-9px) scale(10); animation: float-alt 12s ease infinite; animation-direction: reverse; }
-.background-parallax .layer_2 { transform: translateZ(-5px) scale(6); animation: float-alt 15s ease infinite; }
-.background-parallax .layer_3 { transform: translateZ(-3px) scale(4); animation: float 24s ease infinite; animation-direction: reverse; }
-.background-parallax .layer_4 { transform: translateZ(-1px) scale(2); animation: float 30s ease infinite; }
+.background-parallax .parallax-layer { overflow: visible; background-size: contain; background-position: center; background-repeat: no-repeat; transform: translateY(50%); }
+.background-parallax .layer_1 { animation: float-alt 12s ease infinite; animation-direction: reverse; }
+.background-parallax .layer_2 { animation: float-alt 24s ease infinite; }
+.background-parallax .layer_3 { animation: float 15s ease infinite; }
+.background-parallax .layer_4 { animation: float 30s ease infinite; animation-direction: reverse; }
 
 @keyframes float { 0% { transform: translateY(100%) translateX(0); }
   100% { transform: translateY(-100%) translateX(0); } }
