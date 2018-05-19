@@ -56,27 +56,24 @@
 	opacity: .3;
 	.parallax-layer{
 		overflow: visible;
-		background-size: cover;
+		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
+		transform: translateY(50%)
 	}
 	.layer_1{
-		transform: translateZ(-9px) scale(10);
 		animation: float-alt 12s ease infinite;
 		animation-direction: reverse;
 	}
 	.layer_2{
-		transform: translateZ(-5px) scale(6);
-		animation: float-alt 15s ease infinite;
+		animation: float-alt 24s ease infinite;
 	}
 	.layer_3{
-		transform: translateZ(-3px) scale(4);
-		animation: float 24s ease infinite;
-		animation-direction: reverse;
+		animation: float 15s ease infinite;
 	}
 	.layer_4{
-		transform: translateZ(-1px) scale(2);
 		animation: float 30s ease infinite;
+		animation-direction: reverse;
 	}
 }
 	
