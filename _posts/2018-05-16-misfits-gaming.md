@@ -6,7 +6,9 @@ client_name: Misfits Gaming
 participants:
   ollie: true
   tom: true
-description: ''
+description: After looking for a digital partner, us lovely folks at Rift won a competitive
+  pitch to take charge of redesigning and rebuilding the Misfits website from the
+  ground up.
 image:
   meta: ''
   header: ''
