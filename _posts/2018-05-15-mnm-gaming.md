@@ -3,7 +3,7 @@ title: We built an online hub for the leading British esports club
 layout: project
 date: 2018-03-15 12:51:43 +0000
 client_name: MnM Gaming
-project_type: Website Design
+project_type: Website Development
 description: With a loving fan base and a wealth of media being shared MnM contacted
   us looking to enrich their users experience.
 image:
