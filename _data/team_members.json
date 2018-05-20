@@ -1,19 +1,6 @@
----
 [
-	{
-		"hello": "Beautiful",
-		"happy": true
-	}
-],
-[
-	{
-		"name": "Ollie Taylor",
-		"twitter": "TheOllieJT",
-		"photo": "img"
-	},
-	{
-		"name": "Tom Wade",
-		"twitter": "TomWade",
-		"photo": "img"
-	}
+  {
+    "hello": "Beautiful",
+    "happy": true
+  }
 ]
