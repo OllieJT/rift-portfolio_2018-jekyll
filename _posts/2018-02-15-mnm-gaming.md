@@ -9,7 +9,7 @@ image:
   meta: ''
   header: "/uploads/2018/05/mnm-1.jpg"
   thumbnail: "/uploads/2018/05/mnm.jpg"
-categories: E-Sports
+categories: ESports
 participants:
   ollie: false
   tom: true

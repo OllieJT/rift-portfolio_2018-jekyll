@@ -12,7 +12,7 @@ image:
   meta: ''
   header: "/uploads/2018/05/misfits-1.jpg"
   thumbnail: "/uploads/2018/05/misfits.jpg"
-categories: E-Sports
+categories: ESports
 project_type: Complete Website
 type: Complete Website
 red: 220
