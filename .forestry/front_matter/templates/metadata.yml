@@ -10,9 +10,10 @@ fields:
 - type: text
   name: title
   label: Title
+  description: Client Name if this is a project post
 - type: textarea
   name: description
-  label: Description
+  label: Short Description
 - type: field_group
   name: image
   label: Images
