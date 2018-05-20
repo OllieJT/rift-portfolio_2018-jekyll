@@ -54,7 +54,7 @@ fields:
     - Complete Package
     - Twitch Graphics
     - Social Media
-  name: project_type
+  name: type
   label: Project Type
 pages:
 - _posts/2018-05-16-misfits-gaming.md
