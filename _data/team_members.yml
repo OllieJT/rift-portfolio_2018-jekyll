@@ -1,31 +1,40 @@
 ---
+<<<<<<< HEAD
 test: yolo
 ---
+=======
+>>>>>>> cd6e9cd33766e29b16261731a79bb301659a772c
 invoice: 34843
-date   : 2001-01-23
-bill-to: &id001
-    given  : Chris
-    family : Dumars
-    address:
-        lines: |
-            458 Walkman Dr.
-            Suite #292
-        city    : Royal Oak
-        state   : MI
-        postal  : 48046
-ship-to: *id001
+date: 2001-01-23 00:00:00 +0000
+bill-to:
+  given: Chris
+  family: Dumars
+  address:
+    lines: |
+      458 Walkman Dr.
+      Suite #292
+    city: Royal Oak
+    state: MI
+    postal: 48046
+ship-to:
+  given: Chris
+  family: Dumars
+  address:
+    lines: |
+      458 Walkman Dr.
+      Suite #292
+    city: Royal Oak
+    state: MI
+    postal: 48046
 product:
-    - sku         : BL394D
-      quantity    : 4
-      description : Basketball
-      price       : 450.00
-    - sku         : BL4438H
-      quantity    : 1
-      description : Super Hoop
-      price       : 2392.00
-tax  : 251.42
+- sku: BL394D
+  quantity: 4
+  description: Basketball
+  price: 450.0
+- sku: BL4438H
+  quantity: 1
+  description: Super Hoop
+  price: 2392.0
+tax: 251.42
 total: 4443.52
-comments: >
-    Late afternoon is best.
-    Backup contact is Nancy
-    Billsmer @ 338-4338.
+comments: Late afternoon is best. Backup contact is Nancy Billsmer @ 338-4338.
