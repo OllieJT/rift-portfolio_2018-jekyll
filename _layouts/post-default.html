@@ -1,6 +1,13 @@
 ---
 layout: global
 ---
+	
+{% if page.red and page.green and page.blue %}
+	<style>
+		.colour-bar::after,#logo-colour {background-color:rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important}
+		blockquote {background-color: rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 0.3) !important}
+	</style>
+{% endif %}
 
 <header class="dark-mode">
 	<div class="colour-bar"></div>
@@ -50,9 +57,10 @@ layout: global
 	{% if page.participants.ollie == true %}
 	<li class="project-participant">
 		
-		<a href="." target="_blank">
+		<a href="https://twitter.com/TheOllieJT" target="_blank">
 			<img src="{{ site.url }}{{ site.baseurl }}img/team/ollie-taylor.jpg" width="60" height="60" alt="Ollie Taylor" />
 			<p>Ollie Taylor</p>
+			<h6>@TheOllieJT</h6>
 		</a>
 		
 	</li>
@@ -61,9 +69,10 @@ layout: global
 	{% if page.participants.tom == true %}
 	<li class="project-participant">
 		
-		<a href="." target="_blank">
+		<a href="https://twitter.com/TomWade" target="_blank">
 			<img src="{{ site.url }}{{ site.baseurl }}img/team/tom-wade.jpg" width="60" height="60" alt="Tom Wade" />
 			<p>Tom Wade</p>
+			<h6>@TomWade</h6>
 		</a>
 	
 	</li>

@@ -78,13 +78,13 @@
 		transform: scale(1.12) translateY(3px) rotateZ(1deg)
 	}
 }
+
 .project-participant-list{
 	padding: $space;
 	padding-bottom: 0;
 	font-size: 0;
 	line-height: 0;
 	li{
-		
 		margin-right: $space;
 	}
 	
@@ -94,13 +94,12 @@
 	line-height: 0;
 	font-size: 0;
 	img{
+		display: inline-block;
+		vertical-align: middle;
 		border-radius: 100%;
 	}
-	img,p{
-		display: inline;
-		vertical-align: middle;
-	}
 }
+
 
 
 

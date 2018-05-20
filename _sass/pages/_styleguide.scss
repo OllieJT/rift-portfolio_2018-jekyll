@@ -112,11 +112,53 @@ article{
 		margin-bottom: 0 !important;
 		padding: 0 !important;
 	}
+	.project-participant-list{
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto;
+		grid-gap: $space-small;
+		
+		margin-top: $space-big !important;
+		//li{margin-right: $space;}
+		&::before, &::after{
+			display: none;
+		}
+		
+	}
+	.project-participant{
+		a{
+			display: grid;
+			grid-template-columns: auto 1fr;
+			grid-template-rows: auto auto;
+			grid-column-gap: $space-small;
+			grid-template-areas: "photo name" "photo handle";
+			
+			&::before, &::after{
+				display: none;
+			}
+			&:hover{
+				h6{
+					color: $brand
+				}
+			}
+		}
+		img{	grid-area: photo;}
+		p{		grid-area: name}
+		h6{	grid-area: handle}
+		p,h6{
+			margin: 0 !important;
+			padding: 0;
+			width: auto;
+			display: block;
+			vertical-align: middle;
+		}
+	}
 }
 #project-content{
 	h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote,figcaption{
 		width: 100%;
-		max-width: $body-max;
+		//max-width: $body-max;
+		max-width: 650px;
 		margin: 0 auto;
 	}
 	h1,h2,h3,h4,h5,h6,p,ul,ol{
@@ -127,6 +169,8 @@ article{
 		overflow: hidden
 	}
 }
+
+
 
 
 .pagination{
