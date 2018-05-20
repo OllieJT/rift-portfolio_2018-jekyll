@@ -1,6 +1,6 @@
 ---
 layout: post-default
-title: OpTic Gaming
+title: OpTic Website
 date: 2016-04-20 12:46:47 +0000
 categories: E-Sports
 type: Website Design
@@ -9,11 +9,12 @@ participants:
   tom: false
 description: Hello World
 image:
-  meta: "/uploads/2018/05/thumbnail.jpg"
+  meta: ''
   header: "/uploads/2018/05/optic-2.jpg"
   thumbnail: "/uploads/2018/05/optic.jpg"
 red: 0
 green: 220
 blue: 80
+client: OpTic Gaming
 ---
 Hello World
