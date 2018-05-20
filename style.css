@@ -122,19 +122,19 @@ h6 { font-size: 1.2rem; line-height: 2.4rem; font-weight: 500; text-transform: u
 
 p, li { font-size: 1.8rem; line-height: 3rem; font-weight: 400; }
 
-h1, h2, h3, h4 { color: #1e0e0e; }
+h1, h2, h3, h4 { color: #1e1e1e; }
 
 h5, strong, bold, b { color: #281E50; }
 
-h6, p, li, figcaption { color: rgba(40, 30, 80, 0.72); }
+h6, p, li, figcaption { color: rgba(30, 30, 30, 0.72); }
 h6 a, p a, li a, figcaption a { color: #7733ff; }
 h6 a:hover, p a:hover, li a:hover, figcaption a:hover { color: #bb99ff; }
 
-span.highlight, a { color: rgba(153, 102, 255, 0.42); }
+span.highlight, a { color: rgba(60, 60, 60, 0.42); }
 
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode strong, .dark-mode bold, .dark-mode b { color: white; }
-.dark-mode h6, .dark-mode p, .dark-mode li, .dark-mode figcaption { color: rgba(225, 215, 245, 0.9); }
-.dark-mode h6 a, .dark-mode p a, .dark-mode li a, .dark-mode figcaption a { color: rgba(225, 215, 245, 0.9); }
+.dark-mode h6, .dark-mode p, .dark-mode li, .dark-mode figcaption { color: rgba(230, 230, 230, 0.72); }
+.dark-mode h6 a, .dark-mode p a, .dark-mode li a, .dark-mode figcaption a { color: rgba(230, 230, 230, 0.72); }
 .dark-mode h6 a:hover, .dark-mode p a:hover, .dark-mode li a:hover, .dark-mode figcaption a:hover { color: #9966ff; }
 .dark-mode span.highlight { color: #9966ff; }
 
@@ -149,7 +149,7 @@ em { font-style: italic; }
 strong, b { font-weight: 500; }
 strongh1, strongh2, strongh3, strongh4, strongh5, strongh6, bh1, bh2, bh3, bh4, bh5, bh6 { font-weight: 700; color: #9966FF; }
 
-hr { border-color: rgba(40, 30, 80, 0.32); }
+hr { border-color: rgba(30, 30, 30, 0.32); }
 
 img { display: inline-block; }
 
@@ -233,7 +233,7 @@ nav::before, nav::after { display: none; }
 #menu { display: flex; }
 #menu::before, #menu::after { display: none; }
 #menu li { flex-grow: 1; list-style: none; display: inline-block; font-size: 1.4rem; letter-spacing: .06rem; text-transform: uppercase; font-weight: 500; line-height: 24px; }
-#menu li a { width: 100%; color: rgba(225, 215, 245, 0.9); padding: 0 1.2rem; opacity: .9; text-align: center; }
+#menu li a { width: 100%; color: rgba(230, 230, 230, 0.72); padding: 0 1.2rem; opacity: .9; text-align: center; }
 #menu li a:hover, #menu li a.active { color: white; opacity: 1; }
 
 @media only screen and (max-width: 600px) { nav { grid-template-columns: 1fr; grid-template-rows: auto auto; grid-column-gap: 0; grid-row-gap: 1.2rem; text-align: center; padding: 3rem 0; }
@@ -246,7 +246,7 @@ footer { position: relative; padding: 9rem 0; margin-top: 3.6rem; }
 
 #footer-links { grid-column: span 4; }
 
-.footer-button { display: grid; width: 100%; background-color: transparent; border: 2px solid rgba(225, 215, 245, 0.1); margin-bottom: 1.2rem; padding: 1.2rem; border-radius: .6rem; grid-template-columns: 1fr auto auto 1fr; grid-template-areas: ". icon text ."; grid-gap: 0.6rem; }
+.footer-button { display: grid; width: 100%; background-color: transparent; border: 2px solid rgba(230, 230, 230, 0); margin-bottom: 1.2rem; padding: 1.2rem; border-radius: .6rem; grid-template-columns: 1fr auto auto 1fr; grid-template-areas: ". icon text ."; grid-gap: 0.6rem; }
 .footer-button h1, .footer-button h2, .footer-button h3, .footer-button h4, .footer-button h5, .footer-button h6, .footer-button p { grid-area: text; }
 .footer-button img { grid-area: icon; margin: auto 0; }
 .footer-button:hover { border-color: transparent; background-color: rgba(153, 102, 255, 0.58); }
