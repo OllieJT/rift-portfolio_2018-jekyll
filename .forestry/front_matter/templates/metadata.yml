@@ -12,7 +12,7 @@ fields:
   label: Title
 - type: textarea
   name: description
-  label: Description
+  label: Short Description
 - type: field_group
   name: image
   label: Images
