@@ -1,18 +1,18 @@
 [
-	{
-		"team": [
-			"Ollie",
-			{
-				"twitter": "TheOllieJT",
-				"img": "img",
-				"happy": true
-			},
-			"Tim",
-			{
-				"twitter": "TomWade",
-				"img": "img",
-				"happy": false
-			}
-		]
-	}
+  {
+    "team": [
+      "Ollie",
+      {
+        "twitter": "TheOllieJT",
+        "img": "img",
+        "happy": true
+      },
+      "Tim",
+      {
+        "twitter": "TomWade",
+        "img": "img",
+        "happy": false
+      }
+    ]
+  }
 ]
