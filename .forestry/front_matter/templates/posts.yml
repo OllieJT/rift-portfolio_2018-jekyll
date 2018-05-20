@@ -12,7 +12,7 @@ fields:
     options:
     - project
   label: Layout
-  default: ''
+  default: post-default
 - type: include
   template: metadata
   label: Metadata
