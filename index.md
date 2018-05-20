@@ -1,5 +1,6 @@
 ---
 layout: home
+permalink: "/index"
 date: ''
 title: ''
 description: ''
