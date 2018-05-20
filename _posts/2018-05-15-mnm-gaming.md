@@ -1,5 +1,5 @@
 ---
-title: MnM Gaming
+title: MnM Website
 layout: post-default
 date: 2018-02-15 12:51:43 +0000
 client_name: MnM Gaming
@@ -7,7 +7,7 @@ project_type: Website Development
 description: With a loving fan base and a wealth of media being shared MnM contacted
   us looking to enrich their users experience.
 image:
-  meta: "/uploads/2018/05/thumbnail.jpg"
+  meta: ''
   header: "/uploads/2018/05/mnm-1.jpg"
   thumbnail: "/uploads/2018/05/mnm.jpg"
 categories: E-Sports
@@ -18,6 +18,7 @@ type: Website Development
 red: 240
 green: 140
 blue: 50
+client: MnM Gaming
 ---
 ### The Brief
 
