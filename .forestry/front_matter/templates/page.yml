@@ -6,7 +6,9 @@ fields:
   name: layout
   config:
     source:
-      type: simple
+      type: datafiles
+      file: _data-templates-yml
+      path: templates
     required: true
     options:
     - projects
@@ -14,7 +16,7 @@ fields:
     - global
   label: Layout
   hidden: false
-  default: projects
+  default: ''
 - type: text
   name: permalink
   label: Permalink
