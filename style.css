@@ -308,6 +308,7 @@ section#services .section-title .container-edge { top: 0; }
 article h1, article h2, article h3, article h4, article h5, article h6, article p, article ul, article ol, article blockquote { margin-bottom: 1.2rem !important; }
 article h1:last-child, article h2:last-child, article h3:last-child, article h4:last-child, article h5:last-child, article h6:last-child, article p:last-child, article ul:last-child, article ol:last-child, article blockquote:last-child { margin-bottom: 0 !important; }
 article blockquote p { margin-bottom: 0 !important; padding: 0 !important; }
+article img { max-width: 100%; border-radius: 6px; }
 article .project-participant-list { display: grid; grid-template-columns: auto auto; grid-template-rows: auto; grid-gap: 0.6rem; margin-top: 3.6rem !important; }
 article .project-participant-list::before, article .project-participant-list::after { display: none; }
 article .project-participant a { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; grid-column-gap: 0.6rem; grid-template-areas: "photo name" "photo handle"; }
