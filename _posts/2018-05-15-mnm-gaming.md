@@ -1,5 +1,5 @@
 ---
-title: We built an online hub for the leading British esports club
+title: MnM Gaming
 layout: post-default
 date: 2018-03-15 12:51:43 +0000
 client_name: MnM Gaming
@@ -14,6 +14,7 @@ categories: E-Sports
 participants:
   ollie: false
   tom: true
+type: ''
 ---
 ### The Brief
 
