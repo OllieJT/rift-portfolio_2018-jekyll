@@ -277,8 +277,7 @@ footer { position: relative; padding: 9rem 0; margin-top: 3.6rem; }
 .project-participant-list li { margin-right: 1.2rem; }
 
 .project-participant { display: inline-block; line-height: 0; font-size: 0; }
-.project-participant img { border-radius: 100%; }
-.project-participant img, .project-participant p { display: inline; vertical-align: middle; }
+.project-participant img { display: inline-block; vertical-align: middle; border-radius: 100%; }
 
 @media only screen and (max-width: 600px) { .card-list li { grid-column: span 6; }
   .card-project { padding: 0.6rem; }
@@ -309,8 +308,17 @@ section#services .section-title .container-edge { top: 0; }
 article h1, article h2, article h3, article h4, article h5, article h6, article p, article ul, article ol, article blockquote { margin-bottom: 1.2rem !important; }
 article h1:last-child, article h2:last-child, article h3:last-child, article h4:last-child, article h5:last-child, article h6:last-child, article p:last-child, article ul:last-child, article ol:last-child, article blockquote:last-child { margin-bottom: 0 !important; }
 article blockquote p { margin-bottom: 0 !important; padding: 0 !important; }
+article .project-participant-list { display: grid; grid-template-columns: auto auto; grid-template-rows: auto; grid-gap: 0.6rem; margin-top: 3.6rem !important; }
+article .project-participant-list::before, article .project-participant-list::after { display: none; }
+article .project-participant a { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; grid-column-gap: 0.6rem; grid-template-areas: "photo name" "photo handle"; }
+article .project-participant a::before, article .project-participant a::after { display: none; }
+article .project-participant a:hover h6 { color: #9966FF; }
+article .project-participant img { grid-area: photo; }
+article .project-participant p { grid-area: name; }
+article .project-participant h6 { grid-area: handle; }
+article .project-participant p, article .project-participant h6 { margin: 0 !important; padding: 0; width: auto; display: block; vertical-align: middle; }
 
-#project-content h1, #project-content h2, #project-content h3, #project-content h4, #project-content h5, #project-content h6, #project-content p, #project-content ul, #project-content ol, #project-content blockquote, #project-content figcaption { width: 100%; max-width: 852px; margin: 0 auto; }
+#project-content h1, #project-content h2, #project-content h3, #project-content h4, #project-content h5, #project-content h6, #project-content p, #project-content ul, #project-content ol, #project-content blockquote, #project-content figcaption { width: 100%; max-width: 650px; margin: 0 auto; }
 #project-content h1, #project-content h2, #project-content h3, #project-content h4, #project-content h5, #project-content h6, #project-content p, #project-content ul, #project-content ol { padding: 0 1.8rem; }
 #project-content iframe { border-radius: 1.2rem; overflow: hidden; }
 
