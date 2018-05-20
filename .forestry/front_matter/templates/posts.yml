@@ -56,6 +56,7 @@ fields:
   name: type
   label: Project Type
 pages:
+- _posts/sickodds.md
 - _posts/battalion-website.md
 - _posts/battalion-1944.md
 - _posts/2018-05-16-misfits-gaming.md
