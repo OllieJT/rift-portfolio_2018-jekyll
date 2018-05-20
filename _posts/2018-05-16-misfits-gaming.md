@@ -1,5 +1,5 @@
 ---
-title: Misfits Gaming
+title: Misfits Website
 layout: post-default
 date: 2018-03-16 17:56:12 +0000
 client_name: Misfits Gaming
@@ -10,7 +10,7 @@ description: After looking for a digital partner, us lovely folks at Rift won a 
   pitch to take charge of redesigning and rebuilding the Misfits website from the
   ground up.
 image:
-  meta: "/uploads/2018/05/thumbnail.jpg"
+  meta: ''
   header: "/uploads/2018/05/misfits-1.jpg"
   thumbnail: "/uploads/2018/05/misfits.jpg"
 categories: E-Sports
@@ -19,6 +19,7 @@ type: Complete Website
 red: 220
 green: 40
 blue: 60
+client: Misfits Gaming
 ---
 Misfits Gaming are a professional esports organisation operating out of the UK. With top tier teams across League of Legends, Overwatch and Smash Bros. they needed a website that showed the same level of quality that their players brought to the stage.
 
