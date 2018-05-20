@@ -10,6 +10,7 @@ fields:
 - type: text
   name: title
   label: Title
+  description: Client Name if this is a project post
 - type: textarea
   name: description
   label: Short Description
