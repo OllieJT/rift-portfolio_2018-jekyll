@@ -138,7 +138,9 @@ span.highlight, a { color: rgba(60, 60, 60, 0.42); }
 .dark-mode h6 a:hover, .dark-mode p a:hover, .dark-mode li a:hover, .dark-mode figcaption a:hover { color: #9966ff; }
 .dark-mode span.highlight { color: #9966ff; }
 
-h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child { margin-bottom: 0; }
+.project-content h1, .project-content h2, .project-content h3, .project-content h4, .project-content h5, .project-content h6, .project-content p, .project-content ul, .project-content ol, .project-content blockquote, .project-content figcaption { width: 100%; max-width: 650px; padding: 0 1.8rem; margin: 0 auto; margin-bottom: 1.2rem; }
+.project-content h1:last-child, .project-content h2:last-child, .project-content h3:last-child, .project-content h4:last-child, .project-content h5:last-child, .project-content h6:last-child, .project-content p:last-child, .project-content ul:last-child, .project-content ol:last-child, .project-content blockquote:last-child, .project-content figcaption:last-child { margin-bottom: 0; }
+.project-content img, .project-content iframe { max-width: 100%; border-radius: .6rem; overflow: hidden; }
 
 a { text-decoration: none; display: inline-block; color: inherit; }
 
@@ -161,7 +163,7 @@ figcaption { display: block; margin: 0 auto; text-align: center; }
 figcaption p { font-size: 1.4rem; line-height: 2.6rem; opacity: .88; }
 
 blockquote { position: relative; padding: 3.6rem; border-style: solid; background-color: rgba(153, 102, 255, 0.3); border-radius: .6rem; }
-blockquote p { color: rgba(42, 42, 57, 0.82); }
+blockquote p { color: rgba(42, 42, 57, 0.82); padding: 1.2rem 0 !important; }
 blockquote strong { font-weight: 400; color: #242430; }
 
 article ul, article ol { margin: 1.2rem; }
@@ -277,7 +279,7 @@ footer { position: relative; padding: 9rem 0; margin-top: 3.6rem; }
 .project-participant-list li { margin-right: 1.2rem; }
 
 .project-participant { display: inline-block; line-height: 0; font-size: 0; }
-.project-participant img { display: inline-block; vertical-align: middle; border-radius: 100%; }
+.project-participant img { display: inline-block; vertical-align: middle; border-radius: 100% !important; }
 
 @media only screen and (max-width: 600px) { .card-list li { grid-column: span 6; }
   .card-project { padding: 0.6rem; }
@@ -305,23 +307,18 @@ section#services .section-title .container-edge { top: 0; }
 .service-list .service-title h1, .service-list .service-title h2, .service-list .service-title h3, .service-list .service-title h4, .service-list .service-title h5, .service-list .service-title p { grid-area: name; }
 .service-list .service-title h6 { grid-area: skill; color: #9966FF; }
 
-article h1, article h2, article h3, article h4, article h5, article h6, article p, article ul, article ol, article blockquote { margin-bottom: 1.2rem !important; }
-article h1:last-child, article h2:last-child, article h3:last-child, article h4:last-child, article h5:last-child, article h6:last-child, article p:last-child, article ul:last-child, article ol:last-child, article blockquote:last-child { margin-bottom: 0 !important; }
-article blockquote p { margin-bottom: 0 !important; padding: 0 !important; }
-article img { max-width: 100%; border-radius: 6px; }
-article .project-participant-list { display: grid; grid-template-columns: auto auto; grid-template-rows: auto; grid-gap: 0.6rem; margin-top: 3.6rem !important; }
-article .project-participant-list::before, article .project-participant-list::after { display: none; }
-article .project-participant a { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; grid-column-gap: 0.6rem; grid-template-areas: "photo name" "photo handle"; }
-article .project-participant a::before, article .project-participant a::after { display: none; }
-article .project-participant a:hover h6 { color: #9966FF; }
-article .project-participant img { grid-area: photo; }
-article .project-participant p { grid-area: name; }
-article .project-participant h6 { grid-area: handle; }
-article .project-participant p, article .project-participant h6 { margin: 0 !important; padding: 0; width: auto; display: block; vertical-align: middle; }
+.project-content .project-participant-list { display: grid; grid-template-columns: auto auto; grid-template-rows: auto; grid-gap: 0.6rem; margin-top: 3.6rem !important; }
+.project-content .project-participant-list::before, .project-content .project-participant-list::after { display: none; }
+.project-content .project-participant a { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; grid-column-gap: 0.6rem; grid-template-areas: "photo name" "photo handle"; }
+.project-content .project-participant a::before, .project-content .project-participant a::after { display: none; }
+.project-content .project-participant a:hover h6 { color: #9966FF; }
+.project-content .project-participant img { grid-area: photo; }
+.project-content .project-participant p { grid-area: name; }
+.project-content .project-participant h6 { grid-area: handle; }
+.project-content .project-participant p, .project-content .project-participant h6 { margin: 0 !important; padding: 0; width: auto; display: block; vertical-align: middle; }
 
-#project-content h1, #project-content h2, #project-content h3, #project-content h4, #project-content h5, #project-content h6, #project-content p, #project-content ul, #project-content ol, #project-content blockquote, #project-content figcaption { width: 100%; max-width: 650px; margin: 0 auto; }
-#project-content h1, #project-content h2, #project-content h3, #project-content h4, #project-content h5, #project-content h6, #project-content p, #project-content ul, #project-content ol { padding: 0 1.8rem; }
-#project-content iframe { border-radius: 1.2rem; overflow: hidden; }
+#project-gallery { margin-top: -6.6rem; position: relative; z-index: 100; background-color: transparent !important; }
+#project-gallery h1, #project-gallery h2, #project-gallery h3, #project-gallery h4, #project-gallery h5, #project-gallery h6, #project-gallery p, #project-gallery ul, #project-gallery ol, #project-gallery blockquote, #project-gallery figcaption { max-width: 1280px; padding: 0 3.6rem; margin-bottom: 1.2rem; }
 
 .pagination { width: 100%; max-width: 852px; padding: 1.2rem; margin: 0 auto; margin-top: 3.6rem; }
 .pagination a { flex-grow: 0; padding: 0.6rem 1.8rem; border-radius: .6rem; }
@@ -330,4 +327,5 @@ article .project-participant p, article .project-participant h6 { margin: 0 !imp
 .pagination a:last-child { float: right; background: #1A171F; }
 
 @media only screen and (max-width: 800px) { .service-list { grid-template-rows: auto auto auto auto; }
-  .service-list li { grid-column: span 12; padding: 1.8rem; } }
+  .service-list li { grid-column: span 12; padding: 1.8rem; }
+  #project-gallery h1, #project-gallery h2, #project-gallery h3, #project-gallery h4, #project-gallery h5, #project-gallery h6, #project-gallery p, #project-gallery ul, #project-gallery ol, #project-gallery blockquote, #project-gallery figcaption { padding: 0 1.2rem; } }
