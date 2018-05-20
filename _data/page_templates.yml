@@ -1,4 +1,4 @@
 ---
-global: global
-home: home
-projects: projects
+- global
+- home
+- project-listing

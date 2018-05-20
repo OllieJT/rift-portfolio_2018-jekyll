@@ -13,6 +13,7 @@ headerImage: "img/thumbnail.jpg"
 	{% include _nav.html %}
 	<div class="hero-title">
 		<h1>Case Studies</h1>
+		{{ content }}
 	</div>
 	<div class="container-edge">
 		<svg xmlns="http://www.w3.org/2000/svg" width="1658" height="36" viewBox="0 0 1658 36">
@@ -29,5 +30,18 @@ headerImage: "img/thumbnail.jpg"
 
 
 <section id="projects">
-	{{ content }}
+	<ul class="card-list container">
+
+			{% for project in site.posts %}
+				{% include card-project.html %}
+			{% endfor %}
+				
+		</ul>
+		
+		<!--
+		<div class="pagination">
+			<a class="pagination-previous" href="."><h6>Previous</h6></a>
+			<a class="pagination-next" href="."><h6>Show More</h6></a>
+		</div>
+		-->
 </section>
