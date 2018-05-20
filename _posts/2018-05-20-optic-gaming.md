@@ -10,7 +10,7 @@ participants:
 description: Hello World
 image:
   meta: ''
-  header: ''
+  header: "/uploads/2018/05/optic-2.jpg"
   thumbnail: "/uploads/2018/05/optic.jpg"
 red: 0
 green: 220
