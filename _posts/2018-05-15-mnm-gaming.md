@@ -14,7 +14,7 @@ categories: E-Sports
 participants:
   ollie: false
   tom: true
-type: ''
+type: Website Development
 ---
 ### The Brief
 
