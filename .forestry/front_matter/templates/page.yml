@@ -26,6 +26,3 @@ fields:
   template: metadata
 pages:
 - index.html
-- 404.html
-- about.md
-- projects.html
