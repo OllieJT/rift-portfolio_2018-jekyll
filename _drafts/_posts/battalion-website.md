@@ -10,6 +10,6 @@ image:
   header: ''
   thumbnail: ''
 participants:
-  ollie: false
+  ollie: true
   tom: false
 ---
