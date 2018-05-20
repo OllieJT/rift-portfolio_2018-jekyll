@@ -17,4 +17,6 @@ green: 220
 blue: 80
 client: OpTic Gaming
 ---
-Hello World
+![OpTic Homepage, content is king](/uploads/2018/05/Behance_project_2_optic.jpg "OpTic - Content is King.")This is it.
+
+![OpTic Match Feed](/uploads/2018/05/Behance_project_3_optic.jpg "OpTic - Match Feed")
