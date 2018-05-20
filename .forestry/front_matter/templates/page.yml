@@ -24,5 +24,3 @@ fields:
   name: metadata
   label: Metadata
   template: metadata
-pages:
-- index.html
