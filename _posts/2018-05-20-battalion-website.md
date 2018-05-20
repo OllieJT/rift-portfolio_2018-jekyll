@@ -7,7 +7,7 @@ type: Complete Website
 description: ''
 image:
   meta: ''
-  header: ''
+  header: "/uploads/2018/05/battalion-1.jpg"
   thumbnail: "/uploads/2018/05/b44-web.jpg"
 participants:
   ollie: true
