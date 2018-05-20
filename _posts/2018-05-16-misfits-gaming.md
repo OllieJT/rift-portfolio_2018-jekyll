@@ -15,6 +15,7 @@ image:
   thumbnail: "/uploads/2018/05/thumbnail-misfits.jpg"
 categories: E-Sports
 project_type: Complete Website
+type: Complete Website
 ---
 Misfits Gaming are a professional esports organisation operating out of the UK. With top tier teams across League of Legends, Overwatch and Smash Bros. they needed a website that showed the same level of quality that their players brought to the stage.
 
