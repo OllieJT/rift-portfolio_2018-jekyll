@@ -1,15 +1,9 @@
 --- 
-- 
-  details: 
-    - 
-      photo: img
-    - 
-      twitter: TheOllieJT
+- details: 
+    - photo: img
+    - twitter: TheOllieJT
   name: "Ollie Taylor"
-- 
-  details: 
-    - 
-      photo: img
-    - 
-      twitter: TomWade
+- details: 
+    - photo: img
+    - twitter: TomWade
   name: "Tom Wade"
