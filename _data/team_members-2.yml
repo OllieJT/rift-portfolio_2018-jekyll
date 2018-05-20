@@ -1,9 +1,8 @@
 ---
-ollie:
-  - name: Ollie Taylor
+name: Ollie Taylor
   - twitter: TheOllieJT
   - photo: img
-tom:
-  - name: Tom Wade
+  
+name: Tom Wade
   - twitter: TomWade
   - photo: img
