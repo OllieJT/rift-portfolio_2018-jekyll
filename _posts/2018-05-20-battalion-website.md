@@ -12,5 +12,8 @@ image:
 participants:
   ollie: true
   tom: false
+red: 255
+green: 40
+blue: 40
 ---
 Hello World
