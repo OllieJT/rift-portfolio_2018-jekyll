@@ -5,19 +5,7 @@
 
 
 // Project Page
-article{
-	h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote{
-		margin-bottom: $space !important;
-		&:last-child{margin-bottom: 0 !important}
-	}
-	blockquote p{
-		margin-bottom: 0 !important;
-		padding: 0 !important;
-	}
-	img{
-		max-width: 100%;
-		border-radius: 6px;
-	}
+.project-content{
 	.project-participant-list{
 		display: grid;
 		grid-template-columns: auto auto;
@@ -60,19 +48,16 @@ article{
 		}
 	}
 }
-#project-content{
+
+#project-gallery{
+	margin-top: -6.6rem;
+	position: relative;
+	z-index: 100;
+	background-color: transparent !important;
 	h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote,figcaption{
-		width: 100%;
-		//max-width: $body-max;
-		max-width: 650px;
-		margin: 0 auto;
-	}
-	h1,h2,h3,h4,h5,h6,p,ul,ol{
-		padding: 0 1.8rem;
-	}
-	iframe{
-		border-radius: 1.2rem;
-		overflow: hidden
+		max-width: 1280px;
+		padding: 0 $space-big;
+		margin-bottom: $space;
 	}
 }
 
@@ -114,6 +99,11 @@ article{
 		li{
 			grid-column: span 12;
 			padding: 1.8rem;
+		}
+	}
+	#project-gallery{
+		h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote,figcaption{
+			padding: 0 $space;
 		}
 	}
 }

@@ -1,0 +1,9 @@
+{% if page.red and page.green and page.blue %}
+	<style>
+		.colour-bar::after {background-color:rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important}
+		blockquote {background-color: rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 0.3) !important}
+		article .project-participant a:hover h6 {color:rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important}
+		#logo-colour {fill:rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important}
+		.footer-button:hover {background-color: rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 0.58);}
+	</style>
+{% endif %}
