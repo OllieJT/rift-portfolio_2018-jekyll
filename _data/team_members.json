@@ -1,8 +1,10 @@
 ---
-{
-	"hello": "Beautiful",
-	"happy": true
-}
+[
+	{
+		"hello": "Beautiful",
+		"happy": true
+	}
+],
 [
 	{
 		"name": "Ollie Taylor",
