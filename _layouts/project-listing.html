@@ -26,16 +26,17 @@ layout: global
 <section id="projects">
 	<ul class="card-list container">
 
-			{% for project in site.posts %}
+			{% for project in paginator.posts %}
 				{% include card-project.html %}
 			{% endfor %}
 				
 		</ul>
 		
-		<!--
+		
 		<div class="pagination">
-			<a class="pagination-previous" href="."><h6>Previous</h6></a>
-			<a class="pagination-next" href="."><h6>Show More</h6></a>
+				{% if paginator.previous_page %}<a class="pagination-previous" href="{{ paginator.previous_page_path }}"><h6>Previous</h6></a>{% endif %}
+			<!-- Page: {{ paginator.page }} of {{ paginator.total_pages }} -->
+			{% if paginator.next_page %}<a class="pagination-next" href="{{ paginator.next_page_path }}"><h6>Show More</h6></a>{% endif %}
 		</div>
-		-->
+		
 </section>

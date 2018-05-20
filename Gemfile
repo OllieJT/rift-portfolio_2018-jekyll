@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
 	gem "github-pages" 
 	gem 'jekyll-paginate' 						# Blog Pagination
-	#gem 'jekyll-seo-tag' 							# SEO Meta Data
+	#gem 'jekyll-seo-tag' 						# SEO Meta Data
   #gem 'octopress-minify-html' 			# Minify HTML
 	#gem 'jekyll-sitemap' 						# Sitemap
 	#gem 'liquid_reading_time' 				# Sitemap

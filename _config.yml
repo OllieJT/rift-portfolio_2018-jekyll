@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #Navigation
 baseurl: "/rift-portfolio_2018-jekyll/"
 url: ""
-permalink: /projects/:year/:slug
+permalink: /projects/:year/:categories/:slug
 paginate: 12
 paginate_path: "/projects/page:num/"
 

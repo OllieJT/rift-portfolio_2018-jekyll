@@ -33,10 +33,10 @@ fields:
     source:
       type: simple
     options:
-    - E-Sports
+    - ESports
     - Streamer
     - YouTuber
-    - Game Dev
+    - GameDev
   label: Client Type
   name: categories
 - type: select
