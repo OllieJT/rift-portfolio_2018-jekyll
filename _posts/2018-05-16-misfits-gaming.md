@@ -12,7 +12,7 @@ description: After looking for a digital partner, us lovely folks at Rift won a 
 image:
   meta: ''
   header: ''
-  thumbnail: "/uploads/2018/05/thumbnail-misfits.jpg"
+  thumbnail: "/uploads/2018/05/misfits.jpg"
 categories: E-Sports
 project_type: Complete Website
 type: Complete Website
