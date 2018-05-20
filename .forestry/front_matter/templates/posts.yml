@@ -37,6 +37,7 @@ fields:
     - Streamer
     - YouTuber
     - Game Dev
+    - Service
   label: Client Type
   name: categories
   default: 
