@@ -1,9 +1,9 @@
 ---
 layout: project-listing
 permalink: "/projects"
-date: ''
-title: ''
-description: ''
+date: 2018-04-30 22:00:00 +0000
+title: Case Studies
+description: We design and build online brands for gamers.
 image:
   meta: "/uploads/2018/05/thumbnail.jpg"
   header: ''

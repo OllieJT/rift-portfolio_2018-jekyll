@@ -1,6 +1,6 @@
 ---
 title: Misfits Gaming
-layout: project
+layout: post-default
 date: 2018-05-16 16:56:12 +0000
 client_name: Misfits Gaming
 participants:
