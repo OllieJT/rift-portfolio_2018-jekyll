@@ -28,9 +28,6 @@ fields:
   - type: boolean
     name: tom
     label: Tom
-- type: text
-  name: client_name
-  label: Client Name
 - type: select
   config:
     source:
