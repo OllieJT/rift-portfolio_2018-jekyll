@@ -12,5 +12,8 @@ image:
   meta: ''
   header: ''
   thumbnail: "/uploads/2018/05/optic.jpg"
+red: 0
+green: 220
+blue: 80
 ---
 Hello World
