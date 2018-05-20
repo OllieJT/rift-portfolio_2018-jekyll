@@ -52,6 +52,7 @@ fields:
     - Complete Package
     - Twitch Graphics
     - Social Media
+    - GUI
   name: type
   label: Project Type
 pages:
