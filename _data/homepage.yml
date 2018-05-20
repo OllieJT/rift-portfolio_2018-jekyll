@@ -1,9 +1,20 @@
-Homepage:
-  - Projects Title: Case Studies
-    Projects Description: Learn about the process we went through to build solutions that helped our past clients achieve their goals.
-    Services Title: Services
-    Services Description: We believe in elevating the standard of design and development within eSports. From conception, to completion. We support your projects throughout the entire proccess.
-  - Projects Title: Case Studies
-    Projects Description: Learn about the process we went through to build solutions that helped our past clients achieve their goals.
-    Services Title: Services
-    Services Description: We believe in elevating the standard of design and development within eSports. From conception, to completion. We support your projects throughout the entire proccess.
+--- 
+Homepage: 
+  - 
+    ? "Projects Description"
+    : "Learn about the process we went through to build solutions that helped our past clients achieve their goals."
+    ? "Projects Title"
+    : "Case Studies"
+    ? "Services Description"
+    : "We believe in elevating the standard of design and development within eSports. From conception, to completion. We support your projects throughout the entire proccess."
+    ? "Services Title"
+    : Services
+  - 
+    ? "Projects Description"
+    : "Learn about the process we went through to build solutions that helped our past clients achieve their goals."
+    ? "Projects Title"
+    : "Case Studies"
+    ? "Services Description"
+    : "We believe in elevating the standard of design and development within eSports. From conception, to completion. We support your projects throughout the entire proccess."
+    ? "Services Title"
+    : Services
