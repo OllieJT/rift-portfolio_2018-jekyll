@@ -1,20 +1,19 @@
----
 [
-	{
-		"team": [
-			"Ollie",
-			{
-				"twitter": "TheOllieJT",
-				"img": "img",
-				"happy": true
-			},
-			"Tim",
-			{
-				"twitter": "TomWade",
-				"img": "img",
-				"happy": false
-			}
-		],
-		"nolo": "wolo"
-	}
+  {
+    "team": [
+      "Ollie",
+      {
+        "twitter": "TheOllieJT",
+        "img": "img",
+        "happy": true
+      },
+      "Tim",
+      {
+        "twitter": "TomWade",
+        "img": "img",
+        "happy": false
+      }
+    ],
+    "nolo": "wolo"
+  }
 ]
