@@ -17,8 +17,8 @@ green: 220
 blue: 80
 client: OpTic Gaming
 ---
-![OpTic Homepage, content is king](/uploads/2018/05/Behance_project_2_optic.jpg "OpTic - Content is King.")
+![OpTic Homepage, content is king](/rift-portfolio_2018-jekyll/uploads/2018/05/Behance_project_2_optic.jpg "OpTic - Content is King.")
 
 This is it.
 
-![OpTic Match Feed](/uploads/2018/05/Behance_project_3_optic.jpg "OpTic - Match Feed")
+![OpTic Match Feed](/rift-portfolio_2018-jekyll/uploads/2018/05/Behance_project_3_optic.jpg "OpTic - Match Feed")
