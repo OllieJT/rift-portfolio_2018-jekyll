@@ -10,6 +10,6 @@ image:
   meta: ''
   header: ''
   thumbnail: ''
-categories: ''
+categories: Service
 type: Website Development
 ---
