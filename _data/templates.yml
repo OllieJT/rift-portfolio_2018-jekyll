@@ -1,5 +1,15 @@
 ---
-templates:
+templates: One
+- global
+- home
+- projects
+
+templates: Two
+- global
+- home
+- projects
+
+templates: Three
 - global
 - home
 - projects
