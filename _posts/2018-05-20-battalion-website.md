@@ -6,7 +6,7 @@ categories: Game Dev
 type: Complete Website
 description: ''
 image:
-  meta: ''
+  meta: "/uploads/2018/05/thumbnail.jpg"
   header: ''
   thumbnail: "/uploads/2018/05/b44-web.jpg"
 participants:

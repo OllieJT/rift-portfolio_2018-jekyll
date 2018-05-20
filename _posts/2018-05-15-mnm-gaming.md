@@ -7,7 +7,7 @@ project_type: Website Development
 description: With a loving fan base and a wealth of media being shared MnM contacted
   us looking to enrich their users experience.
 image:
-  meta: ''
+  meta: "/uploads/2018/05/thumbnail.jpg"
   header: "/uploads/2018/05/mnm-1.jpg"
   thumbnail: "/uploads/2018/05/mnm.jpg"
 categories: E-Sports
