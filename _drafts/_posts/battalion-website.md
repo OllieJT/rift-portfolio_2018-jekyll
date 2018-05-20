@@ -8,7 +8,7 @@ description: ''
 image:
   meta: ''
   header: ''
-  thumbnail: ''
+  thumbnail: "/uploads/2018/05/b44-web.jpg"
 participants:
   ollie: true
   tom: false
