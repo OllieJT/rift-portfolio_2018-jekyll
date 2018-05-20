@@ -7,9 +7,10 @@ type: Website Design
 participants:
   ollie: true
   tom: false
-description: ''
+description: Hello World
 image:
   meta: ''
   header: ''
   thumbnail: "/uploads/2018/05/optic.jpg"
 ---
+Hello World
