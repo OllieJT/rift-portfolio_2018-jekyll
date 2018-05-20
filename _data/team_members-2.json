@@ -1,11 +1,12 @@
----
 {
   "team": [
-    "Ollie", {
+    "Ollie",
+    {
       "twitter": "TheOllieJT",
       "img": "img"
     },
-    "Tim", {
+    "Tim",
+    {
       "twitter": "TomWade",
       "img": "img"
     }
