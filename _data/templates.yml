@@ -3,12 +3,10 @@ templates:
 - global
 - home
 - projects
-
 alt_templates:
 - global
 - home
 - projects
-
 my_templates:
 - global
 - home
