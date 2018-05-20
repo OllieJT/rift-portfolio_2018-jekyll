@@ -15,6 +15,9 @@ participants:
   ollie: false
   tom: true
 type: Website Development
+red: 245
+green: 140
+blue: 50
 ---
 ### The Brief
 
