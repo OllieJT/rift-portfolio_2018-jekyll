@@ -12,10 +12,20 @@ image:
   meta: ''
   header: "/uploads/2018/05/optic-2.jpg"
   thumbnail: "/uploads/2018/05/optic.jpg"
-red: 0
+red: ''
 green: 220
 blue: 80
 client: OpTic Gaming
+test:
+- template: image
+  image: "/uploads/2018/05/sickodds.jpg"
+  caption: '123'
+- template: image
+  image: "/uploads/2018/05/b44-web.jpg"
+  caption: '456'
+- template: image
+  caption: '789'
+  image: "/uploads/2018/05/mnm.jpg"
 ---
 #### Content is king.
 
