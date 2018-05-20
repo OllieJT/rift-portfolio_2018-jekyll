@@ -2,7 +2,6 @@
 title: Misfits Website
 layout: post-default
 date: 2018-03-16 17:56:12 +0000
-client_name: Misfits Gaming
 participants:
   ollie: true
   tom: true
