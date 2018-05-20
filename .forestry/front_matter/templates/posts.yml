@@ -54,5 +54,6 @@ fields:
   name: type
   label: Project Type
 pages:
+- _posts/battalion-1944.md
 - _posts/2018-05-16-misfits-gaming.md
 - _posts/2018-05-15-mnm-gaming.md
