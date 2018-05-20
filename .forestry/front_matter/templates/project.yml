@@ -15,6 +15,17 @@ fields:
   template: metadata
   label: Metadata
   name: metadata
+- type: field_group
+  label: Participants
+  name: participants
+  fields:
+  - type: boolean
+    name: ollie
+    label: Ollie
+    default: false
+  - type: boolean
+    name: tom
+    label: Tom
 - type: text
   name: client_name
   label: Client Name
@@ -43,17 +54,6 @@ fields:
     - Social Media
   name: project_type
   label: Project Type
-- type: field_group
-  label: Participants
-  name: participants
-  fields:
-  - type: boolean
-    name: ollie
-    label: Ollie
-    default: false
-  - type: boolean
-    name: tom
-    label: Tom
 pages:
 - _posts/2018-05-16-misfits-gaming.md
 - _posts/2018-05-15-mnm-gaming.md
