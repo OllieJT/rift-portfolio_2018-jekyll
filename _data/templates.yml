@@ -1,6 +1,4 @@
-- template: Yolo
-- template: Mofo
-- template: poo
-  - one: 111
-  - two: 222
-  - three: 333
+templates:
+  - one
+  - two
+  - three
