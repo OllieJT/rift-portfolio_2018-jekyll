@@ -33,19 +33,6 @@ fields:
     source:
       type: simple
     options:
-    - E-Sports
-    - Streamer
-    - YouTuber
-    - Game Dev
-    - Service
-  label: Client Type
-  name: categories
-  default: 
-- type: select
-  config:
-    source:
-      type: simple
-    options:
     - Branding
     - Website Design
     - Website Development
@@ -56,6 +43,22 @@ fields:
     - GUI
   name: type
   label: Project Type
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - E-Sports
+    - Streamer
+    - YouTuber
+    - Game Dev
+    - Service
+  label: Client Type
+  name: categories
+  default: 
+- type: text
+  name: client
+  label: Client Name
 - type: number
   name: red
   label: red
