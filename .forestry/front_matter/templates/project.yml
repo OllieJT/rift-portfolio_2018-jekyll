@@ -15,14 +15,20 @@ fields:
   template: metadata
   label: Metadata
   name: metadata
-- name: categories
-  label: Categories
-  type: tag_list
-  hidden: false
-  default: ''
 - type: text
   name: client_name
   label: Client Name
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - E-Sports
+    - Streamer
+    - YouTuber
+    - Game Dev
+  label: Client Type
+  name: categories
 - type: select
   config:
     source:
