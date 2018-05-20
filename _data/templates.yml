@@ -1,15 +1,15 @@
 ---
-templates: One
+templates:
 - global
 - home
 - projects
 
-templates: Two
+alt_templates:
 - global
 - home
 - projects
 
-templates: Three
+my_templates:
 - global
 - home
 - projects
