@@ -21,6 +21,8 @@ client: OpTic Gaming
 
 Since the birth of OpTic Gaming in 2006, the organisation and it's members have used video as a tool to establish themselves as an esports powerhouse. My idea encapsulated this and took their multimedia needs into consideration.
 
+![OpTic Gaming News](/uploads/2018/05/Behance_project_2_optic.png "Homepage Feed")
+
 #### Dynamic Content Delivery
 
 OpTic have the following they need to deliver valuable content to it's audience, however sheer popularity is not enough to be the go to platform at this scale. To establish OpTic Gaming as the source of of news that users keep on returning to it's important to communicate content in a clear and consistent manor that puts the users needs first
