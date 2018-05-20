@@ -11,5 +11,5 @@ description: ''
 image:
   meta: ''
   header: ''
-  thumbnail: ''
+  thumbnail: "/uploads/2018/05/b44-gui.jpg"
 ---
