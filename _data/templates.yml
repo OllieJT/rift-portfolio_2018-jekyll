@@ -1,3 +1,5 @@
 ---
 templates:
-- one two three
+- global
+- home
+- projects
