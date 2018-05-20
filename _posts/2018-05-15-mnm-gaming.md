@@ -9,7 +9,7 @@ description: With a loving fan base and a wealth of media being shared MnM conta
 image:
   meta: ''
   header: ''
-  thumbnail: "/uploads/2018/05/thumbnail-mnm.jpg"
+  thumbnail: "/uploads/2018/05/mnm.jpg"
 categories: E-Sports
 participants:
   ollie: false
