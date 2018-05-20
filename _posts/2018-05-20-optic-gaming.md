@@ -21,9 +21,7 @@ client: OpTic Gaming
 
 Since the birth of OpTic Gaming in 2006, the organisation and it's members have used video as a tool to establish themselves as an esports powerhouse. My idea encapsulated this and took their multimedia needs into consideration.
 
-![OpTic Gaming News](/rift-portfolio_2018-jekyll/uploads/2018/05/Behance_project_2_optic.png "Homepage Feed")
-
-####Dynamic Content Delivery
+#### Dynamic Content Delivery
 
 OpTic have the following they need to deliver valuable content to it's audience, however sheer popularity is not enough to be the go to platform at this scale. To establish OpTic Gaming as the source of of news that users keep on returning to it's important to communicate content in a clear and consistent manor that puts the users needs first
 
@@ -31,7 +29,7 @@ Users shouldn't have to spend any additional time searching the site for what th
 
 ![OpTic Gaming Matches](/rift-portfolio_2018-jekyll/uploads/2018/05/Behance_project_3_optic.png "Match Feed")
 
-####Elevating the brand
+#### Elevating the brand
 
 The OpTic brand is more than the logo. It is the people. Whilst many organisations strive to promote their own social media over it's players, OpTic Gaming proudly places it's members in the limelight.
 
