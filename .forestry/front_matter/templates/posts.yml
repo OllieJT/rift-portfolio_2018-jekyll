@@ -24,7 +24,7 @@ fields:
   - type: boolean
     name: ollie
     label: Ollie
-    default: false
+    default: true
   - type: boolean
     name: tom
     label: Tom
@@ -33,10 +33,10 @@ fields:
     source:
       type: simple
     options:
-    - ESports
+    - E-Sports
     - Streamer
     - YouTuber
-    - GameDev
+    - Game Dev
   label: Client Type
   name: categories
 - type: select
