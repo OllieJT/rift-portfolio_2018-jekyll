@@ -24,7 +24,7 @@ group :jekyll_plugins do
 	#gem 'jekyll-sitemap' 						# Sitemap
 	#gem 'liquid_reading_time' 				# Sitemap
 	#gem 'jekyll-deploy'              # Deploy
-	#gem 'jekyll-autoprefixer' 				# Autoprefix CSS
+	gem 'jekyll-autoprefixer' 				# Autoprefix CSS
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
