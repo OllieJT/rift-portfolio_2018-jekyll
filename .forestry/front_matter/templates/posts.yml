@@ -6,11 +6,13 @@ fields:
   name: layout
   config:
     source:
-      type: simple
+      type: datafiles
+      file: _data-post_templates-yml
+      path: post_templates
     options:
     - project
   label: Layout
-  default: project
+  default: ''
 - type: include
   template: metadata
   label: Metadata
