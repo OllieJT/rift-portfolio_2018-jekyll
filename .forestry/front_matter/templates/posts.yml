@@ -39,6 +39,7 @@ fields:
     - Game Dev
   label: Client Type
   name: categories
+  default: Game Dev
 - type: select
   config:
     source:
