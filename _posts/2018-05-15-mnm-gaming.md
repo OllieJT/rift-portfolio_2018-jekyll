@@ -8,7 +8,7 @@ description: With a loving fan base and a wealth of media being shared MnM conta
   us looking to enrich their users experience.
 image:
   meta: ''
-  header: ''
+  header: "/uploads/2018/05/mnm-1.jpg"
   thumbnail: "/uploads/2018/05/mnm.jpg"
 categories: E-Sports
 participants:
