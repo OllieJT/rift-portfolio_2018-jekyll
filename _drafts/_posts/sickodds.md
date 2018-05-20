@@ -11,5 +11,5 @@ image:
   header: ''
   thumbnail: ''
 categories: ''
-type: ''
+type: Website Development
 ---
