@@ -1,14 +1,17 @@
 ---
-"title": poop,
+{
+	"hello": "Beautiful",
+	"happy": true
+}
 [
-  {
-    "name": "Ollie Taylor",
-    "twitter": "TheOllieJT",
-    "photo": "img"
-  },
-  {
-    "name": "Tom Wade",
-    "twitter": "TomWade",
-    "photo": "img"
-  }
+	{
+		"name": "Ollie Taylor",
+		"twitter": "TheOllieJT",
+		"photo": "img"
+	},
+	{
+		"name": "Tom Wade",
+		"twitter": "TomWade",
+		"photo": "img"
+	}
 ]

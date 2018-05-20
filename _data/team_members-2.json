@@ -5,15 +5,16 @@
 			"Ollie",
 			{
 				"twitter": "TheOllieJT",
-				"img": "img"
+				"img": "img",
+				"happy": true
 			},
 			"Tim",
 			{
 				"twitter": "TomWade",
-				"img": "img"
+				"img": "img",
+				"happy": false
 			}
 		],
 		"nolo": "wolo"
 	}
-],
-"test": "hero"
+]
