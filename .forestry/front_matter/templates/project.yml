@@ -23,9 +23,20 @@ fields:
 - type: text
   name: client_name
   label: Client Name
-- type: text
-  label: Project Type
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Branding
+    - Website Design
+    - Website Development
+    - Complete Website
+    - Complete Package
+    - Twitch Graphics
+    - Social Media
   name: project_type
+  label: Project Type
 - type: field_group
   label: Participants
   name: participants
