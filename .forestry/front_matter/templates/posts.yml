@@ -57,6 +57,7 @@ fields:
   name: type
   label: Project Type
 pages:
+- _posts/optic-gaming.md
 - _posts/sickodds.md
 - _posts/battalion-website.md
 - _posts/battalion-1944.md
