@@ -81,9 +81,9 @@ fields:
     max: '255'
     step: '1'
 pages:
+- _posts/2018-05-16-misfits-gaming.md
 - _posts/2018-05-20-optic-gaming.md
 - _posts/2018-05-20-sickodds.md
 - _posts/2018-05-20-battalion-website.md
 - _posts/2018-05-20-battalion-1944.md
-- _posts/2018-05-16-misfits-gaming.md
 - _posts/2018-05-15-mnm-gaming.md
