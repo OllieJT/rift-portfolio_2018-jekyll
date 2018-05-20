@@ -7,8 +7,8 @@ fields:
   config:
     source:
       type: datafiles
-      file: _data-templates-yml
-      path: templates
+      file: _data-page_templates-yml
+      path: page_templates
     required: true
     options:
     - projects
@@ -16,7 +16,7 @@ fields:
     - global
   label: Layout
   hidden: false
-  default: ''
+  default: post_templates
 - type: text
   name: permalink
   label: Permalink
