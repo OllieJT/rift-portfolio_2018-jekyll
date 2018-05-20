@@ -15,7 +15,7 @@ participants:
   ollie: false
   tom: true
 type: Website Development
-red: 245
+red: 240
 green: 140
 blue: 50
 ---
