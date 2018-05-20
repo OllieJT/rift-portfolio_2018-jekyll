@@ -11,7 +11,7 @@ description: After looking for a digital partner, us lovely folks at Rift won a 
   ground up.
 image:
   meta: ''
-  header: ''
+  header: "/uploads/2018/05/misfits-1.jpg"
   thumbnail: "/uploads/2018/05/misfits.jpg"
 categories: E-Sports
 project_type: Complete Website
