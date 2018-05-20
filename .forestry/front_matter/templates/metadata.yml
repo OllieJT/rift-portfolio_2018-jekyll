@@ -21,10 +21,12 @@ fields:
   - type: file
     name: meta
     label: Social
+    default: "/uploads/2018/05/thumbnail.jpg"
   - type: file
     name: header
     label: Header
     description: 1920 x 1080
+    default: "/uploads/2018/05/default.jpg"
   - type: file
     name: thumbnail
     label: Thumbnail
