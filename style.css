@@ -322,7 +322,7 @@ section#services .section-title .container-edge { top: 0; }
 .project-content .project-participant h6 { grid-area: handle; }
 .project-content .project-participant p, .project-content .project-participant h6 { margin: 0 !important; padding: 0; width: auto; display: block; vertical-align: middle; }
 
-#project-gallery { margin-top: -6.6rem; position: relative; z-index: 100; background-color: transparent !important; }
+#project-gallery { position: relative; z-index: 100; background-color: transparent !important; }
 #project-gallery h1, #project-gallery h2, #project-gallery h3, #project-gallery h4, #project-gallery h5, #project-gallery h6, #project-gallery p, #project-gallery ul, #project-gallery ol, #project-gallery blockquote, #project-gallery figcaption { max-width: 1280px; padding: 0 3.6rem; margin-bottom: 1.2rem; }
 
 .pagination { width: 100%; max-width: 852px; padding: 1.2rem; margin: 0 auto; margin-top: 3.6rem; }
