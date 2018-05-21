@@ -11,7 +11,7 @@ description: We designed a new experience for the fans of OpTic Gaming that empo
   the content creators behind an eSports organisation.
 image:
   meta: ''
-  header: "/uploads/2016/04/optic-2header.jpg"
+  header: "/uploads/2016/04/optic-header.jpg"
   thumbnail: "/uploads/2016/04/optic-thumbnail.jpg"
 red: ''
 green: 220
