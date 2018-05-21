@@ -17,7 +17,7 @@
 	<!-- seo-meta-global -->
 	<meta name="author" content="{{ site.author }}">
 	<link rel='me' type='text/html' href='http://twitter.com/{{ twitter }}'>
-	<link rel="canonical" href="https://digitalrift.co">
+	<link rel="canonical" href="{{ site.url }}{{ site.baseurl}}{{ page.url }}">
 
 	<!-- seo-meta-global - opengraph -->
 	<meta property="og:type" content="{% if client %}post{% else %}website{% endif %}">
@@ -46,9 +46,9 @@
 	
 	
 	<!-- global imports -->
-	<meta name="robots" content="{{ site.baseurl }}robots.txt">
-	<link rel="author" href="{{ site.baseurl }}humans.txt">
-	<link rel="manifest" href="{{ site.baseurl }}manifest.json">
+	<meta name="robots" content="{{ site.url }}{{ site.baseurl }}robots.txt">
+	<link rel="author" href="{{ site.url }}{{ site.baseurl }}humans.txt">
+	<link rel="manifest" href="{{ site.url }}{{ site.baseurl }}manifest.json">
 	
 	<style type="text/css">
 		{% capture include_to_scssify %}

@@ -15,7 +15,7 @@
 			<div class="card-project-open">
 				<h6>View Project</h6>
 			</div>
-			<img src="{{ project.image.thumbnail | prepend: site.baseurl | replace: '//', '/' }}" width="252" height="284" alt="{{ project.client_name }} Project Thumbnail" />
+			<img src="{{ site.url }}{{ project.image.thumbnail | prepend: site.baseurl | replace: '//', '/' }}" width="252" height="284" alt="{{ project.client_name }} Project Thumbnail" />
 		</div>
 		
 		<p>{{ project.title }}</p>
@@ -25,13 +25,13 @@
 			
 			{% if project.participants.ollie == true %}
 			<li class="project-participant">
-				<img src="{{ site.baseurl }}img/team/ollie-taylor.jpg" width="36" height="36" alt="Ollie Taylor" />
+				<img src="{{ site.url }}{{ site.baseurl }}img/team/ollie-taylor.jpg" width="36" height="36" alt="Ollie Taylor" />
 			</li>
 			{% endif %}
 			
 			{% if project.participants.tom == true %}
 			<li class="project-participant">
-				<img src="{{ site.baseurl }}img/team/tom-wade.jpg" width="36" height="36" alt="Tom Wade" />
+				<img src="{{ site.url }}{{ site.baseurl }}img/team/tom-wade.jpg" width="36" height="36" alt="Tom Wade" />
 			</li>
 			{% endif %}
 			
