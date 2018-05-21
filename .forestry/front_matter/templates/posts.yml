@@ -32,7 +32,7 @@ fields:
   label: Team
   name: team
   template_types:
-  - team-member
+  - metadata
 - type: boolean
   name: sale
   label: For Sale?
