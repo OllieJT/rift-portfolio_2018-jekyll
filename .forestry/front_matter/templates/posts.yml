@@ -84,10 +84,10 @@ fields:
     max: '255'
     step: '1'
 - type: blocks
-  label: TEAM
+  label: Team
   name: team
   template_types:
-  - metadata
+  - participant
 pages:
 - _posts/2016-04-20-optic-gaming.md
 - _posts/2017-11-20-battalion-website.md
