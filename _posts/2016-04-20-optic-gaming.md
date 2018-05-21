@@ -11,8 +11,8 @@ description: We designed a new experience for the fans of OpTic Gaming that empo
   the content creators behind an eSports organisation.
 image:
   meta: ''
-  header: "uploads/2016/04/optic-header.jpg"
-  thumbnail: "uploads/2016/04/optic-thumbnail.jpg"
+  header: "/uploads/2016/04/optic-header.jpg"
+  thumbnail: "/uploads/2016/04/optic-thumbnail.jpg"
 red: ''
 green: 220
 blue: 80
@@ -23,7 +23,7 @@ sale: false
 
 Since the birth of OpTic Gaming in 2006, the organisation and its members have used video as a tool to establish themselves as an esports powerhouse. My idea encapsulated this and took their multimedia needs into consideration.
 
-![OpTic Gaming News]({{ site.url }}{{ site.baseurl }}uploads/2016/04/optic-img-1.png "Homepage Feed")
+![OpTic Gaming News]({{ site.url }}{{ site.baseurl }}/uploads/2016/04/optic-img-1.png "Homepage Feed")
 
 #### Dynamic Content Delivery
 
@@ -31,7 +31,7 @@ OpTic needs to deliver valuable content to it's audience. However, sheer popular
 
 Users shouldn't have to spend any additional time searching the site for what they came for. OpTic Gaming will have many visitors that come and browse, but this alone is not enough to **maximise the potential of the site and generate page views that turn the site the site into additional value for sponsors**.
 
-![OpTic Gaming Matches]({{ site.url }}{{ site.baseurl }}uploads/2016/04/optic-img-2.png "Match Feed")
+![OpTic Gaming Matches]({{ site.url }}{{ site.baseurl }}/uploads/2016/04/optic-img-2.png "Match Feed")
 
 #### Elevating the brand
 
@@ -39,6 +39,6 @@ The OpTic brand is more than the logo. It is the people. Whilst many organisatio
 
 Honouring this value I made team pages a testament to the individual success of each player. Visitors to the site should understand how important each player, manager, and entertainer is. This is why I decided to reinvent the conventional team page found on many esports sites.
 
-![OpTic Gaming Team]({{ site.url }}{{ site.baseurl }}uploads/2016/04/optic-img-3.png "Team Player Profile")
+![OpTic Gaming Team]({{ site.url }}{{ site.baseurl }}/uploads/2016/04/optic-img-3.png "Team Player Profile")
 
 _Updated May 2018: You can find the site we designed for OpTic gaming at_ [_optic.tv_](http://optic.tv/ "OpTic Website")_. Their developers have since altered and removed portions of our design._
