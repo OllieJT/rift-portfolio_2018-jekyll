@@ -93,6 +93,11 @@ span.highlight,a{color: $text-colour-highlight}
 		border-radius: .6rem;
 		overflow: hidden
 	}
+	img{
+		width: auto;
+		margin-top: $space-big;
+		margin-bottom: $space-big;
+	}
 }
 
 
