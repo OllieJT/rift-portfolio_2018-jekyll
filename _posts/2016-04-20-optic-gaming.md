@@ -7,8 +7,7 @@ type: Website Design
 participants:
   ollie: true
   tom: false
-description: We designed a new experience for the fans of OpTic Gaming that empowers
-  the content creators behind an eSports organisation.
+description: An experience that empowers content creators behind OpTic Gaming.
 image:
   meta: ''
   header: "/uploads/2018/05/optic-2.jpg"
@@ -17,16 +16,6 @@ red: ''
 green: 220
 blue: 80
 client: OpTic Gaming
-test:
-- template: image
-  image: "/uploads/2018/05/sickodds.jpg"
-  caption: '123'
-- template: image
-  image: "/uploads/2018/05/b44-web.jpg"
-  caption: '456'
-- template: image
-  caption: '789'
-  image: "/uploads/2018/05/mnm.jpg"
 sale: false
 ---
 #### Content is king.
