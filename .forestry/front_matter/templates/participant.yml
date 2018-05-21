@@ -8,5 +8,6 @@ fields:
     source:
       type: datafiles
       file: _data-team_members-yml
+      path: team_members
   label: Team Member
   default: team_members
