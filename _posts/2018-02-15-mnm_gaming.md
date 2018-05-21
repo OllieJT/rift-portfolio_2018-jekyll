@@ -45,7 +45,7 @@ Around team pages we aimed to provide each team’s page with a unique and inter
 
 #### Putting the pieces together
 
-We put together wireframes for a number of the site pages and working with Kalvin Chung who turned his hand to website design for this project, we collaboratively put together a unique design that checks all of MnM Gaming's boxes. We then brought these designs to life on top of the WordPress platform, allowing them to manage everything they could need to.
+We put together wireframes for a number of the site pages and working with Kalvin Chung, who turned his hand to website design for this project, we collaboratively put together a unique design that checks all of MnM Gaming's boxes. We then brought these designs to life on top of the WordPress platform, allowing them to manage everything they could need to.
 
 We're extremely proud of the MnM website so be sure to pay them a visit and cheer them on.
 
