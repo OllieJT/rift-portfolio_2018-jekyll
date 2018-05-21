@@ -50,4 +50,4 @@ Honouring this value I made team pages a testament to the individual success of 
 
 ![OpTic Gaming Team](/uploads/2018/05/Behance_project_4_optic.png "Team Player Profile")
 
-Updated May 2018: You can find the site we designed for OpTic gaming at optic.tv. Their developers have since altered and removed portions of our design.
+_Updated May 2018: You can find the site we designed for OpTic gaming at_ [_optic.tv_](http://optic.tv/ "OpTic Website")_. Their developers have since altered and removed portions of our design._
