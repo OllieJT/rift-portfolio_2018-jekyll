@@ -22,14 +22,28 @@ client: Misfits Gaming
 sale: false
 team: []
 ---
+#### The Brief
+
 Misfits Gaming are a professional esports organisation operating out of the UK. With top tier teams across League of Legends, Overwatch and Smash Bros. they needed a website that showed the same level of quality that their players brought to the stage.
 
 After looking for a digital partner, us lovely folks at Rift won a competitive pitch to take charge of redesigning and rebuilding the Misfits website from the ground up. We started by speaking with Misfit’s founder and CEO Ben Spoont to identify the key factors for both their internal targets and their fans needs.
 
+#### Our Process
+
 After discussing their requirements we began wireframing the website structure, putting emphasis on large imagery that their creative team had been accumulating with incredible quality over the years. The website acts as a digital hub for Misfits content, linking to a range of their external digital platforms including their ecommerce store, Overwatch content pages, published YouTube videos and Twitch streams, allowing for their fans to digest all their premium content from a central place.
+
+![Misfits Homepage Wireframe](/uploads/2018/05/misfits-wireframe.jpg "Homepage Wireframe")
 
 Built on top of the WordPress platform the Misfits Gaming content team have the power to create and manage content without any delays, publishing content to their huge network of fans as soon as it happens. With this power they can take control of their roster to ensure it's bang up-to-date, publish their upcoming matches to keep their fans engaged and hungry for wins, and have everything optimised not only for mobile devices, but for search engines as well, without even a second thought.
 
+![Misfits Homepage](/uploads/2018/05/misfits-header.jpg "Homepage")
+
+![Misfits Article Page](/uploads/2018/05/misfits-article.png "Article Page")
+
+![Misfits Team Roster Page](/uploads/2018/05/misfits-teampage.png "Misfits Team Page")
+
+#### Observed Results
+
 Since releasing the website 3 months ago we've seen traffic steadily increasing, with fans engaging with content across a range of devices and an increased number of visitors arriving from organic search as opposed to just their existing social channels.
 
-It was an absolute pleasure working with Misfits Gaming and Ben through-out the entire project and we'll be cheering for them as they continue to dominate the scene.
+**It was an absolute pleasure working with Misfits Gaming and Ben through-out the entire project and we'll be cheering for them as they continue to dominate the scene.**
