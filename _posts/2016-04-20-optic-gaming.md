@@ -7,7 +7,8 @@ type: Website Design
 participants:
   ollie: true
   tom: false
-description: Hello World
+description: We designed a new experience for the fans of OpTic Gaming that empowers
+  the content creators behind an eSports organisation.
 image:
   meta: ''
   header: "/uploads/2018/05/optic-2.jpg"
