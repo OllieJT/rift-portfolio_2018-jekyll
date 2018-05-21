@@ -49,7 +49,7 @@ We put together wireframes for a number of the site pages and working with Kalvi
 
 We're extremely proud of the MnM website so be sure to pay them a visit and cheer them on.
 
-[https://twitter.com/TPO_TwoRounds/status/954068133731602432](https://twitter.com/TPO_TwoRounds/status/954068133731602432 "Thomas Campbell")
+https://twitter.com/TPO_TwoRounds/status/954068133731602432
 
 delete below
 
