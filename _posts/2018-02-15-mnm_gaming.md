@@ -27,6 +27,8 @@ Working with MnM Gaming we were tasked with revamping their website to improve u
 
 Molotovs and Marshmallow Gaming, aside from having a fantastic name, have always strived to be more than just a fly-by-night esports team, to be sustainable and to be the standard for which UK esports teams are measured.
 
+<center>![MnM Logo](/uploads/2018/05/mnm-logo-small.png "MnM Logo")</center>
+
 #### #ForTheFlame
 
 Already having a strong name and standing in UK esports cultivated over the last 3 years MnM their existing digital platform wasn’t doing them justice, and that’s where we came in.
@@ -37,6 +39,8 @@ We first focussed on identifying their existing user journeys; boiling this down
 
 Using the large media library being continually updated by the MnM organisation we were able to utilise large header imagery and add more structure to page content, streamlining the users experience and making the process more interactive.
 
+![MnM Website Preview](/uploads/2018/05/about-mnm-players.png "MnM Website Preview")
+
 Around team pages we aimed to provide each team’s page with a unique and interactive experience that introduces not only the team, but also the game and it’s mechanics. The assumption that a visitor already has in-depth knowledge of what an ADC is in League of Legends, or how tank meta works in Overwatch, just isn’t accurate and we focussed on accommodating both your newbie and pro alike, giving them both a great experience.
 
 #### Putting the pieces together
@@ -44,3 +48,7 @@ Around team pages we aimed to provide each team’s page with a unique and inter
 We put together wireframes for a number of the site pages and working with Kalvin Chung who turned his hand to website design for this project, we collaboratively put together a unique design that checks all of MnM Gaming's boxes. We then brought these designs to life on top of the WordPress platform, allowing them to manage everything they could need to.
 
 We're extremely proud of the MnM website so be sure to pay them a visit and cheer them on.
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">And it&#39;s got mobile support making the site so easy to navigate love the simplicity sometimes less is more <a href="[https://twitter.com/KalKalCS?ref_src=twsrc%5Etfw](https://twitter.com/KalKalCS?ref_src=twsrc%5Etfw "https://twitter.com/KalKalCS?ref_src=twsrc%5Etfw")">@KalKalCS</a></p>&mdash; Thomas Campbell (@TPO_TwoRounds) <a href="[https://twitter.com/TPO_TwoRounds/status/954068133731602432?ref_src=twsrc%5Etfw](https://twitter.com/TPO_TwoRounds/status/954068133731602432?ref_src=twsrc%5Etfw "https://twitter.com/TPO_TwoRounds/status/954068133731602432?ref_src=twsrc%5Etfw")">January 18, 2018</a></blockquote>
+
+<script async src="[https://platform.twitter.com/widgets.js](https://platform.twitter.com/widgets.js "https://platform.twitter.com/widgets.js")" charset="utf-8"></script>
