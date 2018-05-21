@@ -22,8 +22,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 #baseurl: "rift-portfolio_2018-jekyll/"
 #url: "https://riftco.github.io/"
 
-baseurl: ""
-url: "http://127.0.0.1:4000"
+baseurl: "rift-portfolio_2018-jekyll/"
+url: "https://riftco.github.io/"
 
 permalink: /projects/:year/:categories/:slug
 paginate: 12
