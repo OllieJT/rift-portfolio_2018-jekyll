@@ -11,26 +11,24 @@ description: We designed a new experience for the fans of OpTic Gaming that empo
   the content creators behind an eSports organisation.
 image:
   meta: ''
-  header: "/uploads/2016/04/optic-2.jpg"
-  thumbnail: "/uploads/2016/04/optic.jpg"
+  header: "/uploads/2018/05/optic-2.jpg"
+  thumbnail: "/uploads/2018/05/optic.jpg"
 red: ''
 green: 220
 blue: 80
 client: OpTic Gaming
 test:
 - template: image
-  image: ''
-  caption: ''
+  image: "/uploads/2018/05/sickodds.jpg"
+  caption: '123'
 - template: image
-  image: ''
-  caption: ''
+  image: "/uploads/2018/05/b44-web.jpg"
+  caption: '456'
 - template: image
-  caption: ''
-  image: ''
+  caption: '789'
+  image: "/uploads/2018/05/mnm.jpg"
 sale: false
-team:
-- template: team-member
-  team_member: Ollie Taylor
+team: []
 ---
 #### Content is king
 
