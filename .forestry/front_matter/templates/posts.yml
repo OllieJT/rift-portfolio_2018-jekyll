@@ -28,6 +28,9 @@ fields:
   - type: boolean
     name: tom
     label: Tom
+- type: boolean
+  name: sale
+  label: For Sale?
 - type: select
   config:
     source:
@@ -59,9 +62,6 @@ fields:
 - type: text
   name: client
   label: Client Name
-- type: boolean
-  name: sale
-  label: For Sale?
 - type: number
   name: red
   label: red
