@@ -56,24 +56,13 @@ section#services{
 	grid-template-rows: auto auto;
 	position: relative;
 	z-index: 10;
+	grid-gap: $space;
 	li{
 		grid-column: span 6;
 		padding: $space-big;
 		border-radius: .6rem;
-		&.service-special{
-			background: $background;
-			border-bottom: 3px solid transparentize($background-invert, .82);
-			.service-title{
-				grid-template-columns: auto 1fr;
-				grid-template-rows: 1fr auto auto 1fr;
-				grid-template-areas:
-					"image ."
-					"image name"
-					"image skill"
-					"image ."
-				;
-			}
-		}
+		background: $background;
+		box-shadow: 0 3px 2px 0 rgba(40,30,80,0.1), 0 12px 36px 0 rgba(29,8,82,0.18);
 	}
 	.service-title{
 		display: grid;
@@ -96,6 +85,12 @@ section#services{
 		h6{
 			grid-area: skill;
 			color: $brand;
+		}
+	}
+	p{
+		margin-bottom: $space-small;
+		&:last-child{
+			margin-bottom: 0;
 		}
 	}
 }
