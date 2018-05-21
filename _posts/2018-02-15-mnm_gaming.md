@@ -47,7 +47,7 @@ Around team pages we aimed to provide each team’s page with a unique and inter
 
 We put together wireframes for a number of the site pages and working with Kalvin Chung, who turned his hand to website design for this project, we collaboratively put together a unique design that checks all of MnM Gaming's boxes. We then brought these designs to life on top of the WordPress platform, allowing them to manage everything they could need to.
 
-We're extremely proud of the MnM website so be sure to pay them a visit and cheer them on.
-
 <blockquote class="twitter-tweet" data-lang="en" hide_thread="true" data-conversation="none"><p lang="en" dir="ltr">And it's got mobile support making the site so easy to navigate love the simplicity sometimes less is more <a href="https://twitter.com/KalKalCS?ref_src=twsrc%5Etfw">@KalKalCS</a></p>— Thomas Campbell_(@TPO_TwoRounds) <a href="https://twitter.com/TPO_TwoRounds/status/954068133731602432?ref_src=twsrc%5Etfw">January 18, 2018</a></blockquote>_
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+**We're extremely proud of the MnM website so be sure to pay them a visit and cheer them on.**
