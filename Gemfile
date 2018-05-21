@@ -16,15 +16,13 @@ source "https://rubygems.org"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-	gem "github-pages" 
-	gem 'jekyll-paginate' 						# Blog Pagination
-	#gem 'jekyll-seo-tag' 						# SEO Meta Data
-  #gem 'octopress-minify-html' 			# Minify HTML
-	#gem 'jekyll-sitemap' 						# Sitemap
-	#gem 'liquid_reading_time' 				# Sitemap
-	#gem 'jekyll-deploy'              # Deploy
-	gem 'jekyll-autoprefixer' 				# Autoprefix CSS
+	gem "github-pages"
+  gem "jekyll-feed"
+	gem 'jekyll-sitemap'
+	gem 'jekyll-paginate'
+	gem 'jekyll-autoprefixer'
+	#gem 'jekyll-seo-tag'
+	#gem 'liquid_reading_time'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -9,7 +9,7 @@ participants:
   tom: false
 description: Hello World
 image:
-  meta: ''
+  meta: "/uploads/2018/05/thumbnail.jpg"
   header: "/uploads/2018/05/optic-2.jpg"
   thumbnail: "/uploads/2018/05/optic.jpg"
 red: ''

@@ -9,7 +9,7 @@ description: After looking for a digital partner, us lovely folks at Rift won a 
   pitch to take charge of redesigning and rebuilding the Misfits website from the
   ground up.
 image:
-  meta: ''
+  meta: "/uploads/2018/05/thumbnail.jpg"
   header: "/uploads/2018/05/misfits-1.jpg"
   thumbnail: "/uploads/2018/05/misfits.jpg"
 categories: ESports

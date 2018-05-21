@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0">
 
-	<title>{% if title %}{{ title }} &middot;  {% endif %}{{ site.title }}</title>
+	<title>{% if page.title %}{{ page.title }} &middot;  {% endif %}{{ site.title }}</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}img/favicon-32.png"> <!-- 32px -->
@@ -17,73 +17,63 @@
 	<!-- seo-meta-global -->
 	<meta name="author" content="{{ site.author }}">
 	<link rel='me' type='text/html' href='http://twitter.com/{{ twitter }}'>
-	<link rel="canonical" href="{{ url }}{{ permalink }}">
+	<link rel="canonical" href="https://digitalrift.co">
 
 	<!-- seo-meta-global - opengraph -->
-	<meta property="og:type" content="{% if layout == project %}post{% else %}website{% endif %}">
-	<meta property="og:site_name" content="{{ site.title }}">
+	<meta property="og:type" content="{% if client %}post{% else %}website{% endif %}">
+	<meta property="og:site_name" content="Digital Rift">
 	<meta property="og:locale" content="en"> <!-- en_US -->
-	<meta property="article:author" content="{{ site.author }}">
+	<meta property="article:author" content="Digital Rift">
 
 	<!-- seo-meta-global - twitter -->
 	<meta name="twitter:site" content="{{ site.twitter }}" />
 	<meta name="twitter:card" content="summary" />
 
 	<!-- seo-meta-this-page -->
-	<meta property="og:title" content="{% if title %}{{ title }} &middot;  {% endif %}{{ site.title }}">
-	<meta name="twitter:title" content="{% if title %}{{ title }} &middot;  {% endif %}{{ site.title }}" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} &middot;  {% endif %}{{ site.title }}">
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }} &middot;  {% endif %}{{ site.title }}" />
 	
-	<meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
-	<meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-	<meta property="og:url" content="{{ site.url }}{{ permalink }}">
-	<meta name="twitter:url" content="{{ site.url }}{{ permalink }}"/>
+	<meta property="og:url" content="{{ site.url }}{{ site.baseurl}}{{ page.url }}">
+	<meta name="twitter:url" content="{{ site.url }}{{ site.baseurl}}{{ page.url }}"/>
 
-	<meta property="og:image" content="{{ image.meta }}">
-	<meta name="twitter:image" content="{{ image.meta }}" />
+	<meta property="og:image" content="{% if page.description %}{{ page.image.meta }}{% else %}{{ site.baseurl}}uploads/2018/05/thumbnail.jpg{% endif %}">
+	<meta name="twitter:image" content="{% if page.description %}{{ page.image.meta }}{% else %}{{ site.baseurl}}uploads/2018/05/thumbnail.jpg{% endif %}" />
 	
-	<meta name="keywords" content="{% if categories %}{% for tag in categories %}{{ tag }}, {% endfor %}{% endif %}Digital Dirf, esports, design, development, website, website builder, team site, esports site">
+	<meta name="keywords" content="{% if page.categories %}{% for tag in page.categories %}{{ tag }}, {% endfor %}{% endif %}Digital Dirf, esports, design, development, website, website builder, team site, esports site">
 	
 	
 	<!-- global imports -->
-	<meta name="robots" content="robots.txt">
-	<link rel="author" href="humans.txt">
-	<link rel="manifest" href="manifest.json">
+	<meta name="robots" content="{{ site.baseurl }}robots.txt">
+	<link rel="author" href="{{ site.baseurl }}humans.txt">
+	<link rel="manifest" href="{{ site.baseurl }}manifest.json">
 	
-	<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}style.css">
-	
-	{% if page.red and page.green and page.blue %}
-	<style>
-		.colour-bar::after {
-			background-color:rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important
-		}
-		blockquote {
-			background-color: rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 0.3) !important
-		}
-		article .project-participant a:hover h6 {
-			color:rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important
-		}
-		#logo-colour {
-			fill:rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important
-		}
-		.footer-button:hover {
-			background-color: rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 0.58);
-		}
+	<style type="text/css">
+		{% capture include_to_scssify %}
+		  {% include inline.scss %}
+		{% endcapture %}
+		{{ include_to_scssify | scssify }}
 		
-		{# P #}
-		{% if page.layout == "post-gallery" %}
-		
-		body{
-			background: rgb(20, 17, 23)
-		}
-		.container-edge svg path {
-			fill: rgb(20, 17, 23);
-		}
-		
+		{% if page.red and page.green and page.blue %}
+			.colour-bar::after {									background-color:		rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important}
+			blockquote {											background-color: 	rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 0.3) !important}
+			.footer-button:hover {								background-color: 	rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 0.58) !important}
+			article .project-participant a:hover h6 {		color:					rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important}
+			#logo-colour {											fill:						rgba({{ page.red }}, {{ page.green }}, {{ page.blue }}, 1) !important}
+			{# Post Gallery #}
+			{% if page.layout == "post-gallery" %}
+			body{background: rgb(20, 17, 23)}
+			.container-edge svg path {fill: rgb(20, 17, 23);}
+			{% endif %}
+			
 		{% endif %}
-		
-	</style>
-	{% endif %}
+	 </style>
+	 
+	 <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}style.css">
+	
+	
 </head>
 
 <body>
@@ -100,7 +90,7 @@
 				<h6 id="legal">&copy;2018 Digital Rift. All Rights Reserved.</h6>
 			</div>
 			<div id="footer-links">
-				<a class="footer-button" href="https://twitter.com/riftco" target="_blank">
+				<a class="footer-button" href="https://twitter.com/riftco" target="_blank" rel="noopener">
 					<img src="{{ site.url }}{{ site.baseurl }}img/social-twitter.svg" alt="Twitter Logo" width="18" height="14" />
 					<h6>Tweet @RiftCo</h6>
 				</a>
