@@ -27,7 +27,7 @@ Working with MnM Gaming we were tasked with revamping their website to improve u
 
 Molotovs and Marshmallow Gaming, aside from having a fantastic name, have always strived to be more than just a fly-by-night esports team, to be sustainable and to be the standard for which UK esports teams are measured.
 
-<center>![MnM Logo](/uploads/2018/05/mnm-logo-small.png "MnM Logo")</center>
+![MnM Logo](/uploads/2018/05/mnm-logo-small.png "MnM Logo")
 
 #### #ForTheFlame
 
