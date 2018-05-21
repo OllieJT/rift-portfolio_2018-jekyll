@@ -1,5 +1,5 @@
 <li>
-	<a class="card card-project" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
+	<a class="card card-project" href="{{ site.url }}{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
 	
 		{% if project.sale == true %}
 			<div class="card-tag tag-sale"
