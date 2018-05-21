@@ -71,23 +71,26 @@ fields:
   name: red
   label: red
   config:
-    min: '0'
+    min: '1'
     max: '255'
     step: '1'
+    required: true
 - type: number
   name: green
   label: green
   config:
-    min: '0'
+    min: '1'
     max: '255'
     step: '1'
+    required: true
 - type: number
   name: blue
   label: Blue
   config:
-    min: '0'
+    min: '1'
     max: '255'
     step: '1'
+    required: true
 pages:
 - _posts/2016-04-20-optic-gaming.md
 - _posts/2017-11-20-battalion-website.md
