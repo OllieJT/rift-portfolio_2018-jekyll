@@ -19,7 +19,8 @@ red: 220
 green: 40
 blue: 60
 client: Misfits Gaming
-sale: true
+sale: false
+team: []
 ---
 Misfits Gaming are a professional esports organisation operating out of the UK. With top tier teams across League of Legends, Overwatch and Smash Bros. they needed a website that showed the same level of quality that their players brought to the stage.
 
