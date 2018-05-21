@@ -80,6 +80,7 @@ footer{
 }
 @media only screen and (max-width: $mobile) {
 	footer{
+		padding: 3.6rem 0;
 		#footer-links{
 			grid-template-columns: 1fr;
 			grid-template-rows: 1fr 1fr 1fr;
