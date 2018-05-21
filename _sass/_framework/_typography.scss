@@ -77,6 +77,8 @@ span.highlight,a{color: $text-colour-highlight}
 
 // Spacing
 .project-content{
+	margin: auto;
+	max-width: 650px;
 	h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote,figcaption{
 		width: 100%;
 		//max-width: $body-max;
@@ -91,7 +93,7 @@ span.highlight,a{color: $text-colour-highlight}
 	img,iframe,.twitter-tweet,twitterwidget{
 		max-width: 100%;
 		border-radius: .6rem;
-		overflow: hidden
+		overflow: hidden;
 		margin: auto;
 	}
 	img{

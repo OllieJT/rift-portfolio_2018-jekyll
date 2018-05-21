@@ -78,7 +78,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-autoprefixer
-  - jekyll-minifier
+  #- jekyll-minifier
   #- jekyll-seo-tag
   #- liquid_reading_time
 
