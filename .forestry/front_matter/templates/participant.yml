@@ -1,0 +1,12 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: select
+  name: team_member
+  config:
+    source:
+      type: datafiles
+      file: _data-team_members-yml
+  label: Team Member
+  default: team_members
