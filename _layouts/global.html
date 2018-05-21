@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0">
 
-	<title>{% if page.title %}{{ page.title }} &middot;  {% endif %}{{ site.title }}</title>
+	<title>{% if layout == home %}{{ site.title }} &middot; Building awesome digital experiences for esports{% else%}{% if page.title %}{{ page.title }} &middot;  {% endif %}{{ site.title }}{% endif %}</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon-32.png"> <!-- 32px -->
@@ -30,8 +30,8 @@
 	<meta name="twitter:card" content="summary" />
 
 	<!-- seo-meta-this-page -->
-	<meta property="og:title" content="{% if page.title %}{{ page.title }} &middot;  {% endif %}{{ site.title }}">
-	<meta name="twitter:title" content="{% if page.title %}{{ page.title }} &middot;  {% endif %}{{ site.title }}" />
+	<meta property="og:title" content="{% if layout == home %}{{ site.title }}{% else%}{% if page.title %}{{ page.title }} &middot;  {% endif %}{{ site.title }}{% endif %}">
+	<meta name="twitter:title" content="{% if layout == home %}{{ site.title }}{% else%}{% if page.title %}{{ page.title }} &middot;  {% endif %}{{ site.title }}{% endif %}" />
 	
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -42,7 +42,7 @@
 	<meta property="og:image" content="{% if page.description %}{{ page.image.meta }}{% else %}{{ site.baseurl}}uploads/2018/05/thumbnail.jpg{% endif %}">
 	<meta name="twitter:image" content="{% if page.description %}{{ page.image.meta }}{% else %}{{ site.baseurl}}uploads/2018/05/thumbnail.jpg{% endif %}" />
 	
-	<meta name="keywords" content="{% if page.categories %}{% for tag in page.categories %}{{ tag }}, {% endfor %}{% endif %}Digital Dirf, esports, design, development, website, website builder, team site, esports site">
+	<meta name="keywords" content="{% if page.categories %}{% for tag in page.categories %}{{ tag }}, {% endfor %}{% endif %}Digital Rift, esports, design, development, website, website builder, team site, esports site">
 	
 	
 	<!-- global imports -->
