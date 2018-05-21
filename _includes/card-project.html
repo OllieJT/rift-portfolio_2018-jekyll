@@ -1,6 +1,16 @@
 <li>
 	<a class="card card-project" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
 	
+		{% if project.sale == true %}
+			<div class="card-tag tag-sale"
+			{% if project.red and project.green and project.blue %}
+			style="background-color: rgb({{ project.red }}, {{ project.green }}, {{ project.blue }})"
+			{% endif %}
+			>
+				<h6>FOR SALE</h6>
+			</div>
+		{% endif %}
+	
 		<div class="card-thumbnail">
 			<div class="card-project-open">
 				<h6>View Project</h6>
