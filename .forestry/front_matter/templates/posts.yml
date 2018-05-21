@@ -86,8 +86,7 @@ fields:
 - type: blocks
   label: Team
   name: team
-  template_types:
-  - participant
+  template_types: []
 pages:
 - _posts/2016-04-20-optic-gaming.md
 - _posts/2017-11-20-battalion-website.md
