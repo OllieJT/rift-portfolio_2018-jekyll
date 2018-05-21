@@ -2,3 +2,7 @@
 @import "_boilerplate/normalize";
 @import "_boilerplate/globals";
 @import "_framework/typography";
+.twitter-tweet,twitterwidget,.twitter-tweet-rendered{
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
