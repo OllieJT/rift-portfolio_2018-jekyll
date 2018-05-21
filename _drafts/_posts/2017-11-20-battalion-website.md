@@ -6,9 +6,9 @@ categories: Game Dev
 type: Complete Website
 description: ''
 image:
-  meta: "/uploads/2018/05/thumbnail.jpg"
-  header: "/uploads/2018/05/battalion-1.jpg"
-  thumbnail: "/uploads/2018/05/b44-web.jpg"
+  meta: "/uploads/2017/11/battalion-social.jpg"
+  header: "/uploads/2017/11/battalion-header.jpg"
+  thumbnail: "/uploads/2017/11/battalion-thumbnail.jpg"
 participants:
   ollie: true
   tom: false

@@ -9,9 +9,9 @@ participants:
   tom: false
 description: Hello World
 image:
-  meta: "/uploads/2018/05/thumbnail.jpg"
-  header: "/uploads/2018/05/optic-2.jpg"
-  thumbnail: "/uploads/2018/05/optic.jpg"
+  meta:       "/uploads/2016/04/optic-social.jpg"
+  header:     "/uploads/2016/04/optic-header.jpg"
+  thumbnail:  "/uploads/2016/04/optic-thumbnail.jpg"
 red: 0
 green: 220
 blue: 80
@@ -21,7 +21,7 @@ client: OpTic Gaming
 
 Since the birth of OpTic Gaming in 2006, the organisation and it's members have used video as a tool to establish themselves as an esports powerhouse. My idea encapsulated this and took their multimedia needs into consideration.
 
-![OpTic Gaming News]({{ site.baseurl }}uploads/2018/05/Behance_project_2_optic.png "Homepage Feed")
+![OpTic Gaming News]({{ site.baseurl }}uploads/2016/04/optic-img-1.png "Homepage Feed")
 
 
 #### Dynamic Content Delivery
@@ -30,7 +30,7 @@ OpTic have the following they need to deliver valuable content to it's audience,
 
 Users shouldn't have to spend any additional time searching the site for what they came for. OpTic Gaming will have many visitors that come and browse, but this alone is not enough to **maximise the potential of the site and generate page views that turn the site the site into additional value for sponsors**.
 
-![OpTic Gaming Matches]({{ site.baseurl }}uploads/2018/05/Behance_project_3_optic.png "Match Feed")
+![OpTic Gaming Matches]({{ site.baseurl }}uploads/2016/04/optic-img-2.png "Match Feed")
 
 
 #### Elevating the brand
@@ -39,4 +39,4 @@ The OpTic brand is more than the logo. It is the people. Whilst many organisatio
 
 Honouring this value I made team pages a testament to the individual success of each player. Visitors to the site should understand how important each player, manager, and entertainer is. This is why I decided to reinvent the conventional team page found on many esports sites.
 
-![OpTic Gaming Team]({{ site.baseurl }}uploads/2018/05/Behance_project_4_optic.png "Team Player Profile")
+![OpTic Gaming Team]({{ site.baseurl }}uploads/2016/04/optic-img-3.png "Team Player Profile")

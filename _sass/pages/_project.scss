@@ -3,6 +3,29 @@
 // Mixins
 @import '../_framework/mixins/animation';
 
+// Parts
+.project-participant-list{
+	padding: $space;
+	padding-bottom: 0;
+	font-size: 0;
+	line-height: 0;
+	li{
+		margin-right: $space;
+	}
+	.project-participant{
+		display: inline-block;
+		line-height: 0;
+		font-size: 0;
+		img{
+			display: inline-block;
+			vertical-align: middle;
+			border-radius: 100% !important;
+		}
+	}
+	
+}
+
+
 
 // Project Page
 .project-content{
@@ -10,14 +33,16 @@
 		display: grid;
 		grid-template-columns: auto auto;
 		grid-template-rows: auto;
-		grid-gap: $space-small;
+		grid-gap: $space;
 		
 		margin-top: $space-big !important;
 		//li{margin-right: $space;}
 		&::before, &::after{
 			display: none;
 		}
-		
+		li{
+			margin: 0 !important;
+		}
 	}
 	.project-participant{
 		a{
@@ -36,7 +61,10 @@
 				}
 			}
 		}
-		img{	grid-area: photo;}
+		img{
+			grid-area: photo;
+			margin: 0 !important;
+		}
 		p{		grid-area: name}
 		h6{	grid-area: handle}
 		p,h6{
@@ -107,4 +135,20 @@
 	}
 }
 
-//@media only screen and (max-width: $mobile) {}
+@media only screen and (max-width: $mobile) {
+	.project-participant-list{
+		padding: $space-small;
+	}
+	.project-content{
+		.project-participant-list{
+			grid-template-columns: 1fr;
+			grid-template-rows: auto auto;
+			
+			margin-top: $space-big !important;
+			li{
+				margin: 0 !important;
+			}
+		}
+	}
+	
+}
