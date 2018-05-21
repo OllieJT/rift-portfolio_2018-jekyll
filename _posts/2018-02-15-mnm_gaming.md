@@ -27,9 +27,7 @@ Working with MnM Gaming we were tasked with revamping their website to improve u
 
 Molotovs and Marshmallow Gaming, aside from having a fantastic name, have always strived to be more than just a fly-by-night esports team, to be sustainable and to be the standard for which UK esports teams are measured.
 
-<p align="center">
-  ![MnM Logo](/uploads/2018/05/mnm-logo-small.png "MnM Logo")
-</p>
+![MnM Logo](/uploads/2018/05/mnm-logo-small.png "MnM Logo")
 
 #### #ForTheFlame
 
@@ -51,5 +49,7 @@ We put together wireframes for a number of the site pages and working with Kalvi
 
 <blockquote class="twitter-tweet" data-lang="en" hide_thread="true" data-conversation="none"><p lang="en" dir="ltr">And it's got mobile support making the site so easy to navigate love the simplicity sometimes less is more <a href="https://twitter.com/KalKalCS?ref_src=twsrc%5Etfw">@KalKalCS</a></p>— Thomas Campbell_(@TPO_TwoRounds) <a href="https://twitter.com/TPO_TwoRounds/status/954068133731602432?ref_src=twsrc%5Etfw">January 18, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+&nbsp;
 
 **We're extremely proud of the MnM website so be sure to pay them a visit and cheer them on.**
