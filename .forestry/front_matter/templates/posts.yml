@@ -28,14 +28,10 @@ fields:
   - type: boolean
     name: tom
     label: Tom
-- type: blocks
-  label: Team
-  name: team
-  template_types:
-  - team-member
 - type: boolean
   name: sale
   label: For Sale?
+  default: false
 - type: select
   config:
     source:
