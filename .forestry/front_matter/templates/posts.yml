@@ -28,6 +28,11 @@ fields:
   - type: boolean
     name: tom
     label: Tom
+- type: blocks
+  label: Team
+  name: team
+  template_types:
+  - team-member
 - type: boolean
   name: sale
   label: For Sale?
@@ -83,10 +88,6 @@ fields:
     min: '0'
     max: '255'
     step: '1'
-- type: blocks
-  label: Team
-  name: team
-  template_types: []
 pages:
 - _posts/2016-04-20-optic-gaming.md
 - _posts/2017-11-20-battalion-website.md
