@@ -87,6 +87,18 @@ fields:
     max: '255'
     step: '1'
     required: true
+- type: field_group_list
+  label: Team
+  name: team
+  fields:
+  - type: select
+    name: member
+    config:
+      source:
+        type: datafiles
+        file: _data-team_members-yml
+        path: team_members
+    label: Team Member
 pages:
 - _posts/2016-04-20-optic-gaming.md
 - _posts/2017-11-20-battalion-website.md
