@@ -1,6 +1,1 @@
-User-Agent: *
-Disallow: /rift-portfolio_2018-jekyll//admin
-Disallow: /rift-portfolio_2018-jekyll//css
-Disallow: /rift-portfolio_2018-jekyll//404.html
-
-Sitemap: /sitemap.xml
+Sitemap: https://riftco.github.io/rift-portfolio_2018-jekyll/sitemap.xml
