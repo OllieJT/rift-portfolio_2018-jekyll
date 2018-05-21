@@ -29,7 +29,7 @@ test:
   image: "/uploads/2018/05/mnm.jpg"
 sale: false
 team:
-- template: participant
+- template: team-member
   team_member: Ollie Taylor
 ---
 #### Content is king
