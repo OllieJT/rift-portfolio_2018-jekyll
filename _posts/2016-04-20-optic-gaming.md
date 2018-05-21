@@ -28,7 +28,8 @@ test:
   caption: '789'
   image: "/uploads/2018/05/mnm.jpg"
 sale: false
-team: []
+team:
+- member: Ollie Taylor
 ---
 #### Content is king
 
