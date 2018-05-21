@@ -49,5 +49,5 @@ We put together wireframes for a number of the site pages and working with Kalvi
 
 We're extremely proud of the MnM website so be sure to pay them a visit and cheer them on.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">And it's got mobile support making the site so easy to navigate love the simplicity sometimes less is more <a href="https://twitter.com/KalKalCS?ref_src=twsrc%5Etfw">@KalKalCS</a></p>— Thomas Campbell (@TPO_TwoRounds) <a href="https://twitter.com/TPO_TwoRounds/status/954068133731602432?ref_src=twsrc%5Etfw">January 18, 2018</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en" hide_thread="true" data-conversation="none"><p lang="en" dir="ltr">And it's got mobile support making the site so easy to navigate love the simplicity sometimes less is more <a href="https://twitter.com/KalKalCS?ref_src=twsrc%5Etfw">@KalKalCS</a></p>— Thomas Campbell_(@TPO_TwoRounds) <a href="https://twitter.com/TPO_TwoRounds/status/954068133731602432?ref_src=twsrc%5Etfw">January 18, 2018</a></blockquote>_
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
