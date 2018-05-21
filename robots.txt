@@ -1,1 +1,1 @@
-Sitemap: https://riftco.github.io//rift-portfolio_2018-jekyll/sitemap.xml
+Sitemap: https://riftco.github.io/rift-portfolio_2018-jekyll/sitemap.xml
