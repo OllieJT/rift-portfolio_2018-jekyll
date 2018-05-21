@@ -100,9 +100,9 @@ fields:
     step: '1'
     required: true
 pages:
-- _posts/2018-02-15-mnm_gaming.md
-- _posts/2016-04-20-optic_gaming.md
-- _posts/2018-03-16-misfits_gaming.md
+- _posts/2018-05-20-battalion-1944.md
 - _posts/2017-11-20-battalion-website.md
 - _posts/2017-06-20-sickodds.md
-- _posts/2018-05-20-battalion-1944.md
+- _posts/2018-03-16-misfits_gaming.md
+- _posts/2018-02-15-mnm_gaming.md
+- _posts/2016-04-20-optic_gaming.md
