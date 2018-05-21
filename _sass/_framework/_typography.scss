@@ -88,10 +88,11 @@ span.highlight,a{color: $text-colour-highlight}
 			margin-bottom: 0
 		}
 	}
-	img,iframe{
+	img,iframe,.twitter-tweet,twitterwidget{
 		max-width: 100%;
 		border-radius: .6rem;
 		overflow: hidden
+		margin: auto;
 	}
 	img{
 		width: auto;
