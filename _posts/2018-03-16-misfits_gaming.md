@@ -20,6 +20,7 @@ green: 40
 blue: 60
 client: Misfits Gaming
 sale: false
+client_logo: "/uploads/2018/05/client-misfits.png"
 ---
 #### The Brief
 
