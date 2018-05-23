@@ -19,6 +19,7 @@ green: 140
 blue: 50
 client: MnM Gaming
 sale: false
+client_logo: "/uploads/2018/05/client-mnm.png"
 ---
 #### Not just a great logo
 

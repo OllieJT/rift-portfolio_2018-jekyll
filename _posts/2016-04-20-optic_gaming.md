@@ -18,6 +18,7 @@ green: 220
 blue: 80
 client: OpTic Gaming
 sale: false
+client_logo: "/uploads/2018/05/client-optic.png"
 ---
 #### Content is king
 
