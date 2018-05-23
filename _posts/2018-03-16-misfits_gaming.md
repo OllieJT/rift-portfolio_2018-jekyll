@@ -3,8 +3,6 @@ title: Misfits Website
 layout: post-default
 date: 2018-03-16 17:56:12 +0000
 participants:
-  ollie: true
-  tom: true
   TomWade: true
   TheOllieJT: true
 description: After looking for a digital partner, us lovely folks at Rift won a competitive
@@ -22,7 +20,6 @@ green: 40
 blue: 60
 client: Misfits Gaming
 sale: false
-team: []
 ---
 #### The Brief
 

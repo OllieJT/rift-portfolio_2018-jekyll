@@ -5,8 +5,8 @@ date: 2016-04-20 12:46:47 +0000
 categories: ESports
 type: Website Design
 participants:
-  ollie: true
-  tom: false
+  TheOllieJT: true
+  TomWade: false
 description: We designed a new experience for the fans of OpTic Gaming that empowers
   the content creators behind an eSports organisation.
 image:
@@ -18,9 +18,6 @@ green: 220
 blue: 80
 client: OpTic Gaming
 sale: false
-team:
-- template: team-member
-  team_member: Ollie Taylor
 ---
 #### Content is king
 

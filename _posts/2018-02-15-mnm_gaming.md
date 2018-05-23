@@ -11,8 +11,6 @@ image:
   thumbnail: "/uploads/2018/02/mnm-thumbnail.jpg"
 categories: ESports
 participants:
-  ollie: false
-  tom: true
   TomWade: true
   TheOllieJT: false
 type: Website Development
@@ -20,7 +18,6 @@ red: 240
 green: 140
 blue: 50
 client: MnM Gaming
-team: []
 sale: false
 ---
 #### Not just a great logo
