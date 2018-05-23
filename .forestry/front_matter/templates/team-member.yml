@@ -7,8 +7,8 @@ fields:
   config:
     source:
       type: datafiles
-      file: _data-team_members-yml
-      path: ''
+      file: _data-team-yml
+      path: team
     required: false
   label: Team Member
-  default: team_members
+  default: Team Members
