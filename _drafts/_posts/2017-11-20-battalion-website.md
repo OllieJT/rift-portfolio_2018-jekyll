@@ -12,9 +12,13 @@ image:
 participants:
   ollie: true
   tom: false
+  TheOllieJT: false
+  TomWade: false
 red: 255
 green: 40
 blue: 40
 client: Battalion 1994
+client_logo: "/uploads/2018/05/client-b94_old.png"
+sale: false
 ---
 Hello World
