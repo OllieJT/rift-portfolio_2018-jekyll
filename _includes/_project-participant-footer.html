@@ -1,27 +1,37 @@
 <ul class="project-participant-list participant-feature">
+	
+	{% if page.participants.TheOllieJT == true %}
+		{% for member in site.data.team.Members %}
+			{% if member.twitter == "TheOllieJT" %}
 			
-	{% if page.participants.ollie == true %}
-	<li class="project-participant">
-		
-		<a href="https://twitter.com/TheOllieJT" target="_blank" rel="noopener">
-			<img src="{{ site.url }}{{ site.baseurl }}/img/team/ollie-taylor.jpg" width="60" height="60" alt="Ollie Taylor" />
-			<p>Ollie Taylor</p>
-			<h6>@TheOllieJT</h6>
-		</a>
-		
-	</li>
-	{% endif %}
+			<li class="project-participant">
+				<a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener">
+					<img src="{{ site.url }}{{ site.baseurl }}{{ member.photo }}" width="60" height="60" alt="{{ member.name }} Photo" />
+					<p>{{ member.name }}</p>
+					<h6>@{{ member.twitter }}</h6>
+				</a>
+			</li>
+			
+			{% endif %}
+		{% endfor %}
+	{% endif %}	
 	
-	{% if page.participants.tom == true %}
-	<li class="project-participant">
-		
-		<a href="https://twitter.com/TomWade" target="_blank" rel="noopener">
-			<img src="{{ site.url }}{{ site.baseurl }}/img/team/tom-wade.jpg" width="60" height="60" alt="Tom Wade" />
-			<p>Tom Wade</p>
-			<h6>@TomWade</h6>
-		</a>
-	
-	</li>
+	{% if page.participants.TomWade == true %}
+		{% for member in site.data.team.Members %}
+			{% if member.twitter == "TomWade" %}
+			
+			<li class="project-participant">
+				<a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener">
+					<img src="{{ site.url }}{{ site.baseurl }}{{ member.photo }}" width="60" height="60" alt="{{ member.name }} Photo" />
+					<p>{{ member.name }}</p>
+					<h6>@{{ member.twitter }}</h6>
+				</a>
+			</li>
+			
+			{% endif %}
+		{% endfor %}
 	{% endif %}
 	
 </ul>
+
+

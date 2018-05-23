@@ -22,17 +22,29 @@
 		<h6>{{ project.type }}</h6>
 		
 		<ul class="project-participant-list">
+	
+			{% if project.participants.TheOllieJT == true %}
+				{% for member in site.data.team.Members %}
+					{% if member.twitter == "TheOllieJT" %}
+					
+					<li class="project-participant">
+						<img src="{{ site.url }}{{ site.baseurl }}{{ member.photo }}" width="30" height="30" alt="{{ member.name }} Photo" />
+					</li>
+					
+					{% endif %}
+				{% endfor %}
+			{% endif %}	
 			
-			{% if project.participants.ollie == true %}
-			<li class="project-participant">
-				<img src="{{ site.url }}{{ site.baseurl }}/img/team/ollie-taylor.jpg" width="36" height="36" alt="Ollie Taylor" />
-			</li>
-			{% endif %}
-			
-			{% if project.participants.tom == true %}
-			<li class="project-participant">
-				<img src="{{ site.url }}{{ site.baseurl }}/img/team/tom-wade.jpg" width="36" height="36" alt="Tom Wade" />
-			</li>
+			{% if project.participants.TomWade == true %}
+				{% for member in site.data.team.Members %}
+					{% if member.twitter == "TomWade" %}
+					
+					<li class="project-participant">
+						<img src="{{ site.url }}{{ site.baseurl }}{{ member.photo }}" width="30" height="30" alt="{{ member.name }} Photo" />
+					</li>
+					
+					{% endif %}
+				{% endfor %}
 			{% endif %}
 			
 		</ul>

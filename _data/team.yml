@@ -1,11 +1,13 @@
 ---
-Team Members:
+Members:
 - name: Ollie Taylor
   twitter: TheOllieJT
+  role: Designer
   photo: "/img/team/ollie-taylor.jpg"
 - name: Tom Wade
   twitter: TomWade
+  role: Developer
   photo: "/img/team/tom-wade.jpg"
-Team Twitter: RiftCo
-Team Discord: https://discord.gg/EbpbYae
-Team Email: hello@digitalrift.co
+Twitter: RiftCo
+Discord: https://discord.gg/EbpbYae
+Email: hello@digitalrift.co

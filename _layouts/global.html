@@ -16,7 +16,7 @@
 
 	<!-- seo-meta-global -->
 	<meta name="author" content="{{ site.author }}">
-	<link rel='me' type='text/html' href='http://twitter.com/{{ twitter }}'>
+	<link rel='me' type='text/html' href='http://twitter.com/{{ site.data.team.Twitter }}'>
 	<link rel="canonical" href="{{ site.url }}{{ site.baseurl}}{{ page.url }}">
 
 	<!-- seo-meta-global - opengraph -->
@@ -90,15 +90,15 @@
 				<h6 id="legal">&copy;2018 Digital Rift. All Rights Reserved.</h6>
 			</div>
 			<div id="footer-links">
-				<a class="footer-button" href="https://twitter.com/riftco" target="_blank" rel="noopener">
+				<a class="footer-button" href="https://twitter.com/{{ site.data.team.Twitter }}" target="_blank" rel="noopener">
 					<img src="{{ site.url }}{{ site.baseurl }}/img/social-twitter.svg" alt="Twitter Logo" width="18" height="14" />
-					<h6>Tweet @RiftCo</h6>
+					<h6>Tweet @{{ site.data.team.Twitter }}</h6>
 				</a>
-				<a class="footer-button" href="https://discord.gg/EbpbYae" target="_blank" rel="noopener">
+				<a class="footer-button" href="{{ site.data.team.Discord }}" target="_blank" rel="noopener">
 					<img src="{{ site.url }}{{ site.baseurl }}/img/social-discord.svg" alt="Discord Logo" width="18" height="20" />
 					<h6>Chat on Discord</h6>
 				</a>
-				<a class="footer-button" href="mailto:hello@digitalrift.co" target="_blank" rel="noopener">
+				<a class="footer-button" href="{{ site.data.team.Email }}" target="_blank" rel="noopener">
 					<h6>...or shoot us an email</h6>
 				</a>
 			</div>

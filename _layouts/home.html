@@ -98,35 +98,26 @@ headerImage: "img/thumbnail.jpg"
 </section>
 
 
+
 <section id="team">
 
 	{% include section-title.html background="/img/background_img-3.jpg" title="Team" description="We love what we do. We are a collection of passionate developers and designers, the only thing we love more than esports is digital." %}
 	
-	<ul class="project-participant-list participant-card container">
 	
+	<ul class="project-participant-list participant-card container">
+		{% for member in site.data.team.Members %}
 		<li class="project-participant">
 			
-			<a href="https://twitter.com/TheOllieJT" target="_blank" rel="noopener">
-				<img src="{{ site.url }}{{ site.baseurl }}/img/team/ollie-taylor.jpg" width="90" height="90" alt="Ollie Taylor" />
-				<h4>Ollie Taylor</h4>
-				<p>Designer</p>
-				<h6>@TheOllieJT</h6>
+			<a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener">
+				<img src="{{ site.url }}{{ site.baseurl }}{{ member.photo }}" width="90" height="90" alt="{{ member.name }} Photo" />
+				<h4>{{ member.name }}</h4>
+				<p>{{ member.role }}</p>
+				<h6>@{{ member.twitter }}</h6>
 			</a>
 			
 		</li>
-		
-		<li class="project-participant">
-			
-			<a href="https://twitter.com/TomWade" target="_blank" rel="noopener">
-				<img src="{{ site.url }}{{ site.baseurl }}/img/team/tom-wade.jpg" width="90" height="90" alt="Tom Wade" />
-				<h4>Tom Wade</h4>
-				<p>Developer</p>
-				<h6>@TomWade</h6>
-			</a>
-		
-		</li>
-		
+		{% endfor %}
 	</ul>
 	
+	
 </section>
-
