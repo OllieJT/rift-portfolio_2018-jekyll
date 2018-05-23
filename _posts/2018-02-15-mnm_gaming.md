@@ -13,6 +13,8 @@ categories: ESports
 participants:
   ollie: false
   tom: true
+  TomWade: true
+  TheOllieJT: false
 type: Website Development
 red: 240
 green: 140
