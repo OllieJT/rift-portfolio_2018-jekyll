@@ -106,16 +106,7 @@ headerImage: "img/thumbnail.jpg"
 	
 	<ul class="project-participant-list participant-card container">
 		{% for member in site.data.team.Members %}
-		<li class="project-participant">
-			
-			<a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener">
-				<img src="{{ site.url }}{{ site.baseurl }}{{ member.photo }}" width="90" height="90" alt="{{ member.name }} Photo" />
-				<h4>{{ member.name }}</h4>
-				<p>{{ member.role }}</p>
-				<h6>@{{ member.twitter }}</h6>
-			</a>
-			
-		</li>
+			{% include card-team.html %}
 		{% endfor %}
 	</ul>
 	

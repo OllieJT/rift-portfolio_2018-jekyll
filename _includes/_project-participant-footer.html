@@ -1,17 +1,11 @@
-<ul class="project-participant-list participant-feature">
+<ul class="project-participant-list container">
 	
 	{% if page.participants.TheOllieJT == true %}
 		{% for member in site.data.team.Members %}
 			{% if member.twitter == "TheOllieJT" %}
 			
-			<li class="project-participant">
-				<a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener">
-					<img src="{{ site.url }}{{ site.baseurl }}{{ member.photo }}" width="60" height="60" alt="{{ member.name }} Photo" />
-					<p>{{ member.name }}</p>
-					<h6>@{{ member.twitter }}</h6>
-				</a>
-			</li>
-			
+				{% include card-team.html %}
+				
 			{% endif %}
 		{% endfor %}
 	{% endif %}	
@@ -20,14 +14,8 @@
 		{% for member in site.data.team.Members %}
 			{% if member.twitter == "TomWade" %}
 			
-			<li class="project-participant">
-				<a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener">
-					<img src="{{ site.url }}{{ site.baseurl }}{{ member.photo }}" width="60" height="60" alt="{{ member.name }} Photo" />
-					<p>{{ member.name }}</p>
-					<h6>@{{ member.twitter }}</h6>
-				</a>
-			</li>
-			
+				{% include card-team.html %}
+				
 			{% endif %}
 		{% endfor %}
 	{% endif %}

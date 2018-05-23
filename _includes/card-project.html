@@ -15,7 +15,10 @@
 			<div class="card-project-open">
 				<h6>View Project</h6>
 			</div>
-			<img src="{{ site.url }}{{ project.image.thumbnail | prepend: site.baseurl | replace: '//', '/' }}" width="252" height="284" alt="{{ project.client_name }} Project Thumbnail" />
+			<img class="thumb-background" src="{{ site.url }}{{ project.image.thumbnail | prepend: site.baseurl | replace: '//', '/' }}" width="252" height="284" alt="{{ project.client_name }} Project Thumbnail" />
+			<div class="thumb-logo">
+				<img src="{{ site.url }}{{ project.client_logo | prepend: site.baseurl | replace: '//', '/' }}" width="130" height="130" />
+			</div>
 		</div>
 		
 		<p>{{ project.title }}</p>
