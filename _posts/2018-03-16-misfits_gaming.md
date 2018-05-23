@@ -6,7 +6,7 @@ participants:
   ollie: true
   tom: true
   TomWade: true
-  TheOllieJT: false
+  TheOllieJT: true
 description: After looking for a digital partner, us lovely folks at Rift won a competitive
   pitch to take charge of redesigning and rebuilding the Misfits website from the
   ground up.
