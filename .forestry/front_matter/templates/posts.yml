@@ -22,24 +22,12 @@ fields:
   name: participants
   fields:
   - type: boolean
-    name: ollie
+    name: TheOllieJT
     label: Ollie
     default: false
   - type: boolean
-    name: tom
+    name: TomWade
     label: Tom
-- type: field_group_list
-  label: Team
-  name: team
-  fields:
-  - type: select
-    name: member
-    config:
-      source:
-        type: datafiles
-        file: _data-team_members-yml
-        path: team_members
-    label: Team Member
 - type: boolean
   name: sale
   label: For Sale?
