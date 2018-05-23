@@ -16,9 +16,11 @@
 				<h6>View Project</h6>
 			</div>
 			<img class="thumb-background" src="{{ site.url }}{{ project.image.thumbnail | prepend: site.baseurl | replace: '//', '/' }}" width="252" height="284" alt="{{ project.client_name }} Project Thumbnail" />
+			{% if project.client_logo %}
 			<div class="thumb-logo">
 				<img src="{{ site.url }}{{ project.client_logo | prepend: site.baseurl | replace: '//', '/' }}" width="130" height="130" />
 			</div>
+			{% endif %}
 		</div>
 		
 		<p>{{ project.title }}</p>
