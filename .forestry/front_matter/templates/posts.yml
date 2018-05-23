@@ -47,6 +47,9 @@ fields:
     - GUI
   name: type
   label: Project Type
+- type: text
+  name: client
+  label: Client Name
 - type: select
   config:
     source:
@@ -60,9 +63,10 @@ fields:
   label: Client Type
   name: categories
   default: 
-- type: text
-  name: client
-  label: Client Name
+- type: file
+  label: Client Logo
+  name: client_logo
+  description: 260 x 260
 - type: number
   name: red
   label: red
