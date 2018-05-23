@@ -8,7 +8,7 @@ fields:
     source:
       type: datafiles
       file: _data-team_members-yml
-      path: team_members
+      path: ''
     required: false
   label: Team Member
-  default: Team
+  default: team_members
