@@ -13,7 +13,7 @@ image:
   meta: ''
   header: "/uploads/2016/04/optic-header.jpg"
   thumbnail: "/uploads/2016/04/optic-thumbnail.jpg"
-red: ''
+red: 1
 green: 220
 blue: 80
 client: OpTic Gaming
