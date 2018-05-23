@@ -11,3 +11,4 @@ fields:
       path: team_members
     required: false
   label: Team Member
+  default: Team
