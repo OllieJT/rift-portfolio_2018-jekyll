@@ -9,6 +9,7 @@
 	padding-bottom: 0;
 	font-size: 0;
 	line-height: 0;
+	width: 100%;
 	li{
 		margin-right: $space;
 		&:last-child{margin-right: 0;}
@@ -27,7 +28,7 @@
 		a{
 			display: grid;
 			&::before, &::after{
-				display: none;
+				display: none !important;
 			}
 			&:hover{
 				h6{
@@ -44,6 +45,9 @@
 			grid-area: photo;
 			margin: auto;
 			transition: all .3s cubic-bezier(0.75, 0, 0.25, 1.5);
+		}
+		&::before, &::after{
+			display: none !important;
 		}
 	}
 	&::before, &::after{
@@ -86,7 +90,6 @@
 				grid-template-columns: 1fr;
 				grid-template-rows: auto auto auto 1fr;
 				grid-template-areas: "photo" "name" "skill" "handle";
-				grid-gap: $space-small;
 			}
 			img{
 				grid-area: photo;
