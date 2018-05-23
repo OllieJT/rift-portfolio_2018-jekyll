@@ -7,13 +7,9 @@
 
 
 # Metadata
-colour: 9966FF
-author: Digital Rift
 title: Digital Rift
 tagline: Design and Development for eSports
-description: >- # this means to ignore newlines until "baseurl:"
-  Digital Rift is a collective of passionate, experienced esports designers and developers. 
-  We're a team of gamers who live to build awesome digital experiences in esports.
+
 
   
   
@@ -28,12 +24,6 @@ url: "http://digitalrift.co"
 permalink: /projects/:year/:categories/:slug
 paginate: 12
 paginate_path: "/projects/page:num/"
-
-
-#Contact Details
-email: hello@digitalrift.co
-twitter: RiftCo
-discord: oo
 
 
 
