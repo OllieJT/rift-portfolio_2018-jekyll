@@ -10,37 +10,41 @@
 	<!-- favicon -->
 	<link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon-32.png"> <!-- 32px -->
 	<link rel="apple-touch-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon-180.png" sizes="180x180"><!-- 180px -->
-	<link rel="mask-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon-256.png" color="#{{ site.colour }}"> <!-- 256px -->
-	<meta name="msapplication-TileColor" content="#{{ site.colour }}">
-	<meta name="theme-color" content="#{{ site.colour }}">
+	<link rel="mask-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon-256.png" color="#9966FF"> <!-- 256px -->
+	<meta name="msapplication-TileColor" content="#9966FF">
+	<meta name="theme-color" content="#9966FF">
 
 	<!-- seo-meta-global -->
-	<meta name="author" content="{{ site.author }}">
+	<meta name="author" content="Digital Rift">
 	<link rel='me' type='text/html' href='http://twitter.com/{{ site.data.team.Twitter }}'>
+	
 	<link rel="canonical" href="{{ site.url }}{{ site.baseurl}}{{ page.url }}">
+	<meta property="og:url" content="{{ site.url }}{{ site.baseurl}}{{ page.url }}">
+	<meta name="twitter:url" content="{{ site.url }}{{ site.baseurl}}{{ page.url }}"/>
 
 	<!-- seo-meta-global - opengraph -->
-	<meta property="og:type" content="{% if client %}post{% else %}website{% endif %}">
+	<meta property="og:type" content="{% if page.client %}post{% else %}website{% endif %}">
 	<meta property="og:site_name" content="Digital Rift">
 	<meta property="og:locale" content="en"> <!-- en_US -->
 	<meta property="article:author" content="Digital Rift">
 
 	<!-- seo-meta-global - twitter -->
-	<meta name="twitter:site" content="{{ site.twitter }}" />
+	<meta name="twitter:site" content="{{ site.data.team.Twitter }}" />
 	<meta name="twitter:card" content="summary" />
 
 	<!-- seo-meta-this-page -->
-	<meta property="og:title" content="{% if page.layout == home %}{{ site.title }} &middot; Building awesome digital experiences for esports{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}">
+	<meta property="og:title" content="{% if page.layout == home %}
+		{{ site.title }} &middot; Building awesome digital experiences for esports
+		{% else if page.client %}{{ page.client }},{{ page.type }} &middot; {{ site.title }}
+		{% else %}{{ page.title }} &middot; {{ site.title }}
+	{% endif %}">
 	<meta name="twitter:title" content="{% if page.layout == home %}{{ site.title }} &middot; Building awesome digital experiences for esports{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}" />
 	
-	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-
-	<meta property="og:url" content="{{ site.url }}{{ site.baseurl}}{{ page.url }}">
-	<meta name="twitter:url" content="{{ site.url }}{{ site.baseurl}}{{ page.url }}"/>
-
-	<meta property="og:image" content="{% if page.description %}{{ page.image.meta }}{% else %}{{ site.baseurl}}uploads/2018/05/thumbnail.jpg{% endif %}">
-	<meta name="twitter:image" content="{% if page.description %}{{ page.image.meta }}{% else %}{{ site.baseurl}}uploads/2018/05/thumbnail.jpg{% endif %}" />
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.team.Description }}{% endif %}">
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.team.Description }}{% endif %}">
+	
+	<meta property="og:image" content="{{ site.url }}{{ site.baseurl}}{% if page.description %}{{ page.image.meta }}{% else %}{{ site.data.team.ShareImage }}{% endif %}">
+	<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl}}{% if page.description %}{{ page.image.meta }}{% else %}{{ site.data.team.ShareImage }}{% endif %}" />
 	
 	<meta name="keywords" content="{% if page.categories %}{% for tag in page.categories %}{{ tag }}, {% endfor %}{% endif %}Digital Rift, esports, design, development, website, website builder, team site, esports site">
 	
