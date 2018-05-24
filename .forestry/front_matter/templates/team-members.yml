@@ -59,4 +59,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- _team/ollie_taylor.md
 - _team/tom_wade.md
