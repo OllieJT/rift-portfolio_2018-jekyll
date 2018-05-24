@@ -211,7 +211,7 @@
 		max-width: 100%;
 		height: auto;
 		transition: all $transition-easeOutCirc 2.4s;
-		transform: scale(1.12) translateY(3px) rotateZ(1deg)
+		transform: scale(1.2) translateY(3px) rotateZ(2deg)
 	}
 	.thumb-logo{
 		position: absolute;
@@ -223,7 +223,7 @@
 		bottom: 25%;
 		text-align: center;
 		img{
-			max-width: 66%;
+			width: 66%;
 			height: auto;
 		}
 	}
@@ -250,6 +250,9 @@
 		//box-shadow: 0 6px 12px 0 rgba(40,30,80,0.12), 0 12px 24px 0 rgba(29,8,82,0.24);
 		p,h6{
 			padding: 0 $space-small;
+		}
+		.project-participant{
+			margin-left: 0;
 		}
 	}
 	.card-thumbnail{

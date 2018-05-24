@@ -39,8 +39,8 @@
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.team.Description }}{% endif %}">
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.team.Description }}{% endif %}">
 	
-	<meta property="og:image" content="{{ site.url }}{{ site.baseurl}}{% if page.description %}{{ page.image.meta }}{% else %}{{ site.data.team.ShareImage }}{% endif %}">
-	<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl}}{% if page.description %}{{ page.image.meta }}{% else %}{{ site.data.team.ShareImage }}{% endif %}" />
+	<meta property="og:image" content="{{ site.url }}{{ site.baseurl}}{% if page.image.meta %}{{ page.image.meta }}{% else %}{{ site.data.team.ShareImage }}{% endif %}">
+	<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl}}{% if page.image.meta %}{{ page.image.meta }}{% else %}{{ site.data.team.ShareImage }}{% endif %}" />
 	
 	<meta name="keywords" content="{% if page.categories %}{% for tag in page.categories %}{{ tag }}, {% endfor %}{% endif %}Digital Rift, esports, design, development, website, website builder, team site, esports site">
 	
