@@ -58,3 +58,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- _team/tom_wade.md
