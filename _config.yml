@@ -26,6 +26,11 @@ paginate: 12
 paginate_path: "/projects/page:num/"
 
 
+# Collections
+collections:
+  team:
+    output: true
+    permalink: /:collection/:name/
 
 # Build settings
 markdown: kramdown
