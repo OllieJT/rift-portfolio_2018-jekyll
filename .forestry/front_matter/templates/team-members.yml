@@ -5,15 +5,15 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
-  default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
+  hidden: true
   default: ''
 - name: title
   label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: name
+  label: Name
   type: text
   hidden: false
   default: ''
@@ -22,8 +22,23 @@ fields:
   type: textarea
   hidden: false
   default: ''
+- name: twitter
+  label: Twitter
+  type: text
+  hidden: false
+  default: ''
+- name: role
+  label: Role
+  type: text
+  hidden: false
+  default: ''
+- name: photo
+  label: Photo
+  type: file
+  hidden: false
+  default: ''
 - name: image
-  label: Image
+  label: Meta Images
   type: field_group
   fields:
   - name: meta
@@ -41,25 +56,5 @@ fields:
     type: file
     hidden: false
     default: ''
-  hidden: false
-  default: ''
-- name: name
-  label: Name
-  type: text
-  hidden: false
-  default: ''
-- name: twitter
-  label: Twitter
-  type: text
-  hidden: false
-  default: ''
-- name: role
-  label: Role
-  type: text
-  hidden: false
-  default: ''
-- name: photo
-  label: Photo
-  type: file
   hidden: false
   default: ''
