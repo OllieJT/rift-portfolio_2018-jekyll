@@ -1,0 +1,65 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: field_group
+  fields:
+  - name: meta
+    label: Meta
+    type: file
+    hidden: false
+    default: ''
+  - name: header
+    label: Header
+    type: file
+    hidden: false
+    default: ''
+  - name: thumbnail
+    label: Thumbnail
+    type: file
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+- name: twitter
+  label: Twitter
+  type: text
+  hidden: false
+  default: ''
+- name: role
+  label: Role
+  type: text
+  hidden: false
+  default: ''
+- name: photo
+  label: Photo
+  type: file
+  hidden: false
+  default: ''
